@@ -1,0 +1,11 @@
+date,split,valid_target_pixels,forecastable_pixels,forecast_percent,evaluated_samples
+2024-03-01,test,0,0,,0
+2024-03-04,test,0,0,,0
+2024-04-13,test,0,0,,0
+2024-05-02,test,0,0,,0
+2024-05-21,test,0,0,,0
+2025-03-01,test,238,0,0.0,0
+2025-03-04,test,237,0,0.0,0
+2025-04-13,test,238,211,88.65546218487395,14
+2025-05-02,test,238,238,100.0,6
+2025-05-21,test,238,238,100.0,10

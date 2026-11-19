@@ -1,0 +1,65 @@
+{
+  "mode": "fixed-split initialization-seed repetitions",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "examples": ".\\artifacts\\spatial_generalization\\v1",
+  "config": {
+    "seed": 42,
+    "threshold": 0.2,
+    "tile_size": 256,
+    "min_history": 2,
+    "max_history": 32,
+    "max_history_days": 365,
+    "max_horizon_days": 120,
+    "samples_per_split": 20000,
+    "split_axis": "row",
+    "buffer_pixels": 0,
+    "batch_size": 256,
+    "num_workers": 0,
+    "epochs": 100,
+    "patience": 12,
+    "learning_rate": 0.0003,
+    "d_model": 64,
+    "num_layers": 4,
+    "num_heads": 8,
+    "dim_feedforward": 256,
+    "dropout": 0.1,
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "extra_features": [],
+    "experiment": "spatial_generalization",
+    "train_years": [
+      2022,
+      2023,
+      2024
+    ],
+    "test_year": 2025,
+    "validation_dates": [],
+    "require_seasons": true,
+    "grid_extent": "union",
+    "loss": "mse",
+    "residual_prediction": true,
+    "excluded_dates": []
+  },
+  "example_sha256": {
+    "train.npy": "29d63d20144ce9f5c60b6dfcee357649ce461b811759db17523efb656bf39ce0",
+    "validation.npy": "13e116ca23fc7286637ad63f55457e059a40e841fa7899829f40a9d05e32d47e",
+    "test.npy": "d7778800a855c9da3f7ab7ac564b9aef6142249a3378a2254b598ccd567fcbf1",
+    "examples.json": "166b035f95eae70692fa23bebc17bfe49f2a00f95dd89d38c769eb257312f2e1"
+  },
+  "reference_run": ".\\runs\\spatial_generalization\\retrain_2026-11-18",
+  "cpu_threads": 4,
+  "jobs": 2,
+  "metric": "rmse",
+  "alternative": "two-sided",
+  "alpha": 0.05,
+  "existing_test_set_already_inspected": true
+}

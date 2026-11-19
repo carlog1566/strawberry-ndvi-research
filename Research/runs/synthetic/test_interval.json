@@ -1,0 +1,8 @@
+{
+  "lower_quantile": 0.1,
+  "upper_quantile": 0.9,
+  "nominal_coverage": 0.8,
+  "coverage": 0.0,
+  "mean_width": -0.3008638322353363,
+  "crossing_rate": 1.0
+}

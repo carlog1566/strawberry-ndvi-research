@@ -1,0 +1,142 @@
+{
+  "distribution": {
+    "actual": {
+      "count": 20000.0,
+      "mean": 0.32321273964643477,
+      "std": 0.09013267023141681,
+      "min": 0.2000131458044052,
+      "25%": 0.24960347265005112,
+      "50%": 0.3064776808023453,
+      "75%": 0.37885555624961853,
+      "max": 0.7090937495231628
+    },
+    "linear": {
+      "count": 20000.0,
+      "mean": 0.32997704394851773,
+      "std": 0.02155221341459153,
+      "min": 0.28416302160276863,
+      "25%": 0.3091657820247453,
+      "50%": 0.33353662822178787,
+      "75%": 0.3481552255708006,
+      "max": 0.3769451839427166
+    },
+    "transformer": {
+      "count": 20000.0,
+      "mean": 0.325208418558,
+      "std": 0.024241105079750726,
+      "min": 0.26457137,
+      "25%": 0.30761211,
+      "50%": 0.32464474499999996,
+      "75%": 0.3464592325,
+      "max": 0.36858436
+    }
+  },
+  "metrics": {
+    "linear": {
+      "n": 20000,
+      "rmse": 0.08646602417979708,
+      "mae": 0.0710916525763349,
+      "r2": 0.07966016422957345,
+      "macro_f1": 0.2968920442989998,
+      "accuracy": 0.8029,
+      "actual_mean": 0.32321273964643477,
+      "predicted_mean": 0.32997704394851773,
+      "actual_std": 0.09013041688649386,
+      "predicted_std": 0.02155167460252093,
+      "bias": 0.0067643043020828965,
+      "outside_ndvi_range": 0.0
+    },
+    "transformer": {
+      "n": 20000,
+      "rmse": 0.08568223698062137,
+      "mae": 0.069779040084277,
+      "r2": 0.09626972113667986,
+      "macro_f1": 0.2968920442989998,
+      "accuracy": 0.8029,
+      "actual_mean": 0.32321273964643477,
+      "predicted_mean": 0.325208418558,
+      "actual_std": 0.09013041688649386,
+      "predicted_std": 0.024240499044548194,
+      "bias": 0.001995678911565216,
+      "outside_ndvi_range": 0.0
+    },
+    "persistence": {
+      "n": 20000,
+      "rmse": 0.12125411112114151,
+      "mae": 0.09476105802059173,
+      "r2": -0.8098816834758717,
+      "macro_f1": 0.37772812962970187,
+      "accuracy": 0.69575,
+      "actual_mean": 0.32321273964643477,
+      "predicted_mean": 0.33055368039757016,
+      "actual_std": 0.09013041688649386,
+      "predicted_std": 0.09466793071553505,
+      "bias": 0.007340940751135349,
+      "outside_ndvi_range": 0.0
+    }
+  },
+  "confusion": {
+    "linear": {
+      "unfavorable": {
+        "unfavorable": 16058,
+        "marginal": 3853,
+        "healthy": 89
+      },
+      "marginal": {
+        "unfavorable": 0,
+        "marginal": 0,
+        "healthy": 0
+      },
+      "healthy": {
+        "unfavorable": 0,
+        "marginal": 0,
+        "healthy": 0
+      }
+    },
+    "transformer": {
+      "unfavorable": {
+        "unfavorable": 16058,
+        "marginal": 3853,
+        "healthy": 89
+      },
+      "marginal": {
+        "unfavorable": 0,
+        "marginal": 0,
+        "healthy": 0
+      },
+      "healthy": {
+        "unfavorable": 0,
+        "marginal": 0,
+        "healthy": 0
+      }
+    }
+  },
+  "forecast": {
+    "tags": {
+      "model": "transformer",
+      "prediction_mask": "latest valid historical NDVI > threshold AND minimum history",
+      "season": "2025",
+      "target_date": "2025-06-30",
+      "AREA_OR_POINT": "Area"
+    },
+    "counts": {
+      "total": 49000000,
+      "predicted": 2125161,
+      "nodata": 46874839,
+      "no_history": 28853584,
+      "insufficient_history": 18021255,
+      "horizon_exceeded": 0,
+      "unexplained_missing": 0
+    },
+    "resolution": [
+      0.010802324295043946,
+      0.010802324295043946
+    ],
+    "nodata": -9999.0,
+    "shape": [
+      7000,
+      7000
+    ]
+  },
+  "limits": "Audit of old cache, which clips to its reference footprint and uses unverified calendar-year seasons."
+}

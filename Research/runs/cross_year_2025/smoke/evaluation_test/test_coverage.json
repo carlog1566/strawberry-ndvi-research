@@ -1,0 +1,7 @@
+{
+  "valid_target_pixels": 1189,
+  "forecastable_pixels": 687,
+  "forecast_percent": 57.779646761984864,
+  "evaluated_samples": 30,
+  "sampling": "uniform pixel-date reservoir; coverage measured before sampling"
+}

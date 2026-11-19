@@ -1,0 +1,2177 @@
+{
+  "upstream_url": "https://github.com/arco-group/ndvi-forecasting",
+  "upstream_commit": "93ca6fae1acb4cbde9f4f8494fb8ee0029f205fe",
+  "snapshot_date": "2026-11-19",
+  "copied_files": [
+    {
+      "path": "Research/config.yaml",
+      "source_sha256": "af8c6fdbcceed6d737e09298c61c5f9de8331a9038300ea6bbd720742bfa9406",
+      "shared_sha256": "af8c6fdbcceed6d737e09298c61c5f9de8331a9038300ea6bbd720742bfa9406"
+    },
+    {
+      "path": "Research/manifest.csv",
+      "source_sha256": "9a24f8ee206293cabf3ed422d3bbda04fd89060967757ae6142b33b8bcec8096",
+      "shared_sha256": "9a24f8ee206293cabf3ed422d3bbda04fd89060967757ae6142b33b8bcec8096"
+    },
+    {
+      "path": "Research/ndvi_manifest.csv",
+      "source_sha256": "0db008e3c4006109fce4b38e3c5e4118f5592f014b4c4183ab40f036a06771fa",
+      "shared_sha256": "0db008e3c4006109fce4b38e3c5e4118f5592f014b4c4183ab40f036a06771fa"
+    },
+    {
+      "path": "Research/pyproject.toml",
+      "source_sha256": "97cc93e3ed65dd1c38afee044fd9a3796926ab8bc41f22a095a07afa7da180b3",
+      "shared_sha256": "97cc93e3ed65dd1c38afee044fd9a3796926ab8bc41f22a095a07afa7da180b3"
+    },
+    {
+      "path": "Research/pytest.ini",
+      "source_sha256": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+      "shared_sha256": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead"
+    },
+    {
+      "path": "Research/README.md",
+      "source_sha256": "14bd03b16dd13dcacff31dd476eb4d24b05d32b89509c39d4237f192899094c8",
+      "shared_sha256": "b5ec010dfa88f5dc80aa0dcfeafc5d8cce16e180a4d26598d042eac954077950"
+    },
+    {
+      "path": "Research/requirements.txt",
+      "source_sha256": "11a0d5f5e4dfbbd5697daf1bbbb1d2fc52439ac6c31547fd1cff87f51034f147",
+      "shared_sha256": "11a0d5f5e4dfbbd5697daf1bbbb1d2fc52439ac6c31547fd1cff87f51034f147"
+    },
+    {
+      "path": "Research/configs/cross_year_2025.json",
+      "source_sha256": "9b5ec8a15058738e62ebfd36368e79163d9d59fe951ebaaf9f4ffb4d64c6130f",
+      "shared_sha256": "9b5ec8a15058738e62ebfd36368e79163d9d59fe951ebaaf9f4ffb4d64c6130f"
+    },
+    {
+      "path": "Research/configs/default.json",
+      "source_sha256": "f662052eddd8154e189b9439d48b2e65adf42d7919cabc7e10e293e384ddc9ad",
+      "shared_sha256": "f662052eddd8154e189b9439d48b2e65adf42d7919cabc7e10e293e384ddc9ad"
+    },
+    {
+      "path": "Research/configs/README.md",
+      "source_sha256": "b8e9ebd9c158dfea2075aea1ae838891d5304183ff6af253bb83e9e53d3fde8b",
+      "shared_sha256": "b8e9ebd9c158dfea2075aea1ae838891d5304183ff6af253bb83e9e53d3fde8b"
+    },
+    {
+      "path": "Research/configs/smoke.json",
+      "source_sha256": "28748ea824f12e46188d71de05fd57929980f27cfcf55d8e3c4250b00ecd07ea",
+      "shared_sha256": "28748ea824f12e46188d71de05fd57929980f27cfcf55d8e3c4250b00ecd07ea"
+    },
+    {
+      "path": "Research/configs/spatial_generalization.json",
+      "source_sha256": "af8c6fdbcceed6d737e09298c61c5f9de8331a9038300ea6bbd720742bfa9406",
+      "shared_sha256": "af8c6fdbcceed6d737e09298c61c5f9de8331a9038300ea6bbd720742bfa9406"
+    },
+    {
+      "path": "Research/docs/cleanup-review.md",
+      "source_sha256": "196d37bdd12125c0f5f865d4ca41c2cc9f274d33b2819f4e0eefe1a5bebb2490",
+      "shared_sha256": "196d37bdd12125c0f5f865d4ca41c2cc9f274d33b2819f4e0eefe1a5bebb2490"
+    },
+    {
+      "path": "Research/docs/existing_audit.json",
+      "source_sha256": "c3d8f8ce5b25c3c38d976fb3df2b6bb40b964fcdb0ded3461646a9948ef3b258",
+      "shared_sha256": "c3d8f8ce5b25c3c38d976fb3df2b6bb40b964fcdb0ded3461646a9948ef3b258"
+    },
+    {
+      "path": "Research/docs/history.md",
+      "source_sha256": "75672e33943bf7325d302d6c51ff7d9bd88eb222c9e5df20da9d3c114e669f25",
+      "shared_sha256": "75672e33943bf7325d302d6c51ff7d9bd88eb222c9e5df20da9d3c114e669f25"
+    },
+    {
+      "path": "Research/docs/legacy-regression.md",
+      "source_sha256": "a774105f219a47ab3f39e3b080beeeab25018a1a650306be2c350b752788a67b",
+      "shared_sha256": "a774105f219a47ab3f39e3b080beeeab25018a1a650306be2c350b752788a67b"
+    },
+    {
+      "path": "Research/docs/presentation-brief.md",
+      "source_sha256": "f26cecc74645b1898224091fc72e2c3e57453026d7302a024a89dea4f90281be",
+      "shared_sha256": "f26cecc74645b1898224091fc72e2c3e57453026d7302a024a89dea4f90281be"
+    },
+    {
+      "path": "Research/docs/repeated-comparison.md",
+      "source_sha256": "7a1af6273041a3157f7a15351a6815f0f1260e922406d1a0c7033dd30f01dc45",
+      "shared_sha256": "7a1af6273041a3157f7a15351a6815f0f1260e922406d1a0c7033dd30f01dc45"
+    },
+    {
+      "path": "Research/docs/repository-map.md",
+      "source_sha256": "4be5ff09cad952bc024acc5e3cc87d628c31e922c46a9091970dd64e326da337",
+      "shared_sha256": "4be5ff09cad952bc024acc5e3cc87d628c31e922c46a9091970dd64e326da337"
+    },
+    {
+      "path": "Research/docs/research-methods.md",
+      "source_sha256": "ffec24a80bfa17d76d8ab61bcda570ab8202a7a541406343206236e0f9376330",
+      "shared_sha256": "ffec24a80bfa17d76d8ab61bcda570ab8202a7a541406343206236e0f9376330"
+    },
+    {
+      "path": "Research/docs/upstream-review.md",
+      "source_sha256": "39c9f2a762ddec1cb640bad5038b38b49b0852cb1358d18c7e0b7ebd47cbf7df",
+      "shared_sha256": "39c9f2a762ddec1cb640bad5038b38b49b0852cb1358d18c7e0b7ebd47cbf7df"
+    },
+    {
+      "path": "Research/docs/validation.md",
+      "source_sha256": "21dc762441a14f3a48972b3fa97fadbb2201041fd3e1cb17c59e25f2b36418e4",
+      "shared_sha256": "9956a6687fed4cc2324a55fcc0d25237e6a6d2dae1ff3cbdb4d06dc939862c03"
+    },
+    {
+      "path": "Research/docs/workflows.md",
+      "source_sha256": "6a2ee8a2b18ce5afe255dc19938816323dd825f1b9dfdce2439baa9ee2bbdb7a",
+      "shared_sha256": "0f00beb6e012bee9ea6d34f5248de2c736d8d8788bcafd80e271c4b18e607e9a"
+    },
+    {
+      "path": "Research/models/LinearReg_Baseline.py",
+      "source_sha256": "c323752ecdb39f8da4eabd2c9feffca38ea44b8ae5285015892035b02010d279",
+      "shared_sha256": "c323752ecdb39f8da4eabd2c9feffca38ea44b8ae5285015892035b02010d279"
+    },
+    {
+      "path": "Research/scripts/audit_existing.py",
+      "source_sha256": "fe8a991a6f61e9a16bfe7cedb73ddf177278b87127b09d3d983745f73b1e37a6",
+      "shared_sha256": "fe8a991a6f61e9a16bfe7cedb73ddf177278b87127b09d3d983745f73b1e37a6"
+    },
+    {
+      "path": "Research/scripts/repeated_comparison.py",
+      "source_sha256": "075dbb4f5071499f4ebc5dc0d3f85ed8cb544b389014eb5f2061ef6d507052f3",
+      "shared_sha256": "075dbb4f5071499f4ebc5dc0d3f85ed8cb544b389014eb5f2061ef6d507052f3"
+    },
+    {
+      "path": "Research/tests/test_experiments.py",
+      "source_sha256": "20b341907c39442e401c30e453150e8122784be2b981240a379fea9fe6be7b87",
+      "shared_sha256": "20b341907c39442e401c30e453150e8122784be2b981240a379fea9fe6be7b87"
+    },
+    {
+      "path": "Research/tests/test_pipeline.py",
+      "source_sha256": "574a559beb7991f7ba2403384cf1e4e178ac1c2b7673b717d251995be262f7c7",
+      "shared_sha256": "574a559beb7991f7ba2403384cf1e4e178ac1c2b7673b717d251995be262f7c7"
+    },
+    {
+      "path": "Research/tests/test_repeated_comparison.py",
+      "source_sha256": "cf96d14bef2a5a05c45a1850fe9b22e63d3d6fc9d746a2812ca3ddc05258a670",
+      "shared_sha256": "cf96d14bef2a5a05c45a1850fe9b22e63d3d6fc9d746a2812ca3ddc05258a670"
+    },
+    {
+      "path": "Research/tests/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "shared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Research/uav_ndvi/__init__.py",
+      "source_sha256": "9be764223fb264104d2cd9a511e3e977a0c6da9aef8eb57e295bf30028403125",
+      "shared_sha256": "9be764223fb264104d2cd9a511e3e977a0c6da9aef8eb57e295bf30028403125"
+    },
+    {
+      "path": "Research/src/uav_ndvi/baseline.py",
+      "source_sha256": "3f180f152c432e6114ddbabd940364a4a39dd6c62c59d9986ec5ae182bd71c23",
+      "shared_sha256": "3f180f152c432e6114ddbabd940364a4a39dd6c62c59d9986ec5ae182bd71c23"
+    },
+    {
+      "path": "Research/src/uav_ndvi/config.py",
+      "source_sha256": "d59aa8641bba925427c5f7aa978029defbccb4637dc599c8be683d6925f607c2",
+      "shared_sha256": "d59aa8641bba925427c5f7aa978029defbccb4637dc599c8be683d6925f607c2"
+    },
+    {
+      "path": "Research/src/uav_ndvi/dataset.py",
+      "source_sha256": "0f8d1b86ae78d23553b12d94b522b48a5b4a6f9f04d1c68fec7880f3bf46a5bc",
+      "shared_sha256": "0f8d1b86ae78d23553b12d94b522b48a5b4a6f9f04d1c68fec7880f3bf46a5bc"
+    },
+    {
+      "path": "Research/src/uav_ndvi/defaults.json",
+      "source_sha256": "f662052eddd8154e189b9439d48b2e65adf42d7919cabc7e10e293e384ddc9ad",
+      "shared_sha256": "f662052eddd8154e189b9439d48b2e65adf42d7919cabc7e10e293e384ddc9ad"
+    },
+    {
+      "path": "Research/src/uav_ndvi/evaluate.py",
+      "source_sha256": "9f96fa315097ed2fafc4ca171c2577b9aada5fa53167d2f1afe625aecaa9b7a1",
+      "shared_sha256": "9f96fa315097ed2fafc4ca171c2577b9aada5fa53167d2f1afe625aecaa9b7a1"
+    },
+    {
+      "path": "Research/src/uav_ndvi/evaluation.py",
+      "source_sha256": "5d0f465e9a7bae422b0ff24c316e9d42fcf39e897d66d9fc8ce003e42f15ca26",
+      "shared_sha256": "5d0f465e9a7bae422b0ff24c316e9d42fcf39e897d66d9fc8ce003e42f15ca26"
+    },
+    {
+      "path": "Research/src/uav_ndvi/forecast.py",
+      "source_sha256": "4c8a98c69c9154bceab457f3e437d7a5e5ee02ee60027ce7938d992f748bda64",
+      "shared_sha256": "4c8a98c69c9154bceab457f3e437d7a5e5ee02ee60027ce7938d992f748bda64"
+    },
+    {
+      "path": "Research/src/uav_ndvi/inference.py",
+      "source_sha256": "abe71f4f8ea5ed3d3c0cdb227e06071b36bbbedde42b9d59965929470d24dfd4",
+      "shared_sha256": "abe71f4f8ea5ed3d3c0cdb227e06071b36bbbedde42b9d59965929470d24dfd4"
+    },
+    {
+      "path": "Research/src/uav_ndvi/legacy_linear_regression.py",
+      "source_sha256": "0a857a825f9a0f92e000b6e705c0bc8d6c14b97aece9f2d5523dd1594f504fb6",
+      "shared_sha256": "0a857a825f9a0f92e000b6e705c0bc8d6c14b97aece9f2d5523dd1594f504fb6"
+    },
+    {
+      "path": "Research/src/uav_ndvi/model.py",
+      "source_sha256": "0cc6844b88531e3a3869fad1b5c120688941db71cc02b52e36d5acd1f4f9405a",
+      "shared_sha256": "0cc6844b88531e3a3869fad1b5c120688941db71cc02b52e36d5acd1f4f9405a"
+    },
+    {
+      "path": "Research/src/uav_ndvi/preprocess.py",
+      "source_sha256": "fc79a78b3181075035b72d44a9f884ddcbf7bb82d4258e3676ed149f54ed0dbb",
+      "shared_sha256": "fc79a78b3181075035b72d44a9f884ddcbf7bb82d4258e3676ed149f54ed0dbb"
+    },
+    {
+      "path": "Research/src/uav_ndvi/preprocessing.py",
+      "source_sha256": "6d53f364889a4d8de52f3463cd7e95fca7dc6d22eff4497862bf33e4878cb1c2",
+      "shared_sha256": "6d53f364889a4d8de52f3463cd7e95fca7dc6d22eff4497862bf33e4878cb1c2"
+    },
+    {
+      "path": "Research/src/uav_ndvi/train.py",
+      "source_sha256": "556463bd7c5c6845e3cdfd262ec1f436759b2a73241bb2392f670ffd140d2154",
+      "shared_sha256": "556463bd7c5c6845e3cdfd262ec1f436759b2a73241bb2392f670ffd140d2154"
+    },
+    {
+      "path": "Research/src/uav_ndvi/training.py",
+      "source_sha256": "34352ef3b84528ea345d2ae592073f4cbe2323b7738360e1dd27deec10e9dc1b",
+      "shared_sha256": "34352ef3b84528ea345d2ae592073f4cbe2323b7738360e1dd27deec10e9dc1b"
+    },
+    {
+      "path": "Research/src/uav_ndvi/utils.py",
+      "source_sha256": "b48e79cd6213f78dc338bcdf64ce84f0031ce35ad3669277ca7379a07c3cc983",
+      "shared_sha256": "b48e79cd6213f78dc338bcdf64ce84f0031ce35ad3669277ca7379a07c3cc983"
+    },
+    {
+      "path": "Research/src/uav_ndvi/__init__.py",
+      "source_sha256": "a8044135efc33bf990d21b15b0461201324bfc3655caa2fdc39a834416140ac0",
+      "shared_sha256": "a8044135efc33bf990d21b15b0461201324bfc3655caa2fdc39a834416140ac0"
+    },
+    {
+      "path": "Research/src/uav_ndvi/__main__.py",
+      "source_sha256": "63e078a5bd84a5ccb8c4f10612b1a62cacb40ef7c65e14ec68e14c9a0c9db045",
+      "shared_sha256": "63e078a5bd84a5ccb8c4f10612b1a62cacb40ef7c65e14ec68e14c9a0c9db045"
+    },
+    {
+      "path": "Research/src/uav_ndvi/licenses/AgriMatNet-LICENSE",
+      "source_sha256": "ff9e5a7b6e9738894717cfeb30e105d9790d1ee880ef35bfbe25b246bcd93055",
+      "shared_sha256": "ff9e5a7b6e9738894717cfeb30e105d9790d1ee880ef35bfbe25b246bcd93055"
+    },
+    {
+      "path": "Research/src/uav_ndvi/models/linear_regression.py",
+      "source_sha256": "3b99bb66ec4313ba9ef5b825945df3b7a91a4116d022b70cdc754490e6444bd5",
+      "shared_sha256": "3b99bb66ec4313ba9ef5b825945df3b7a91a4116d022b70cdc754490e6444bd5"
+    },
+    {
+      "path": "Research/src/uav_ndvi/models/transformer.py",
+      "source_sha256": "9fd25f3418d20401e2538894b890ab79b8002141ef36352abe0c6975831e2d2c",
+      "shared_sha256": "9fd25f3418d20401e2538894b890ab79b8002141ef36352abe0c6975831e2d2c"
+    },
+    {
+      "path": "Research/src/uav_ndvi/models/__init__.py",
+      "source_sha256": "c3a43c956dd8aedeb2bf7abbe07384ec64ad6853495329dd80cbb920bf3cbfe0",
+      "shared_sha256": "c3a43c956dd8aedeb2bf7abbe07384ec64ad6853495329dd80cbb920bf3cbfe0"
+    },
+    {
+      "path": "Research/runs/strawberry/history.csv",
+      "source_sha256": "007a5c40015ff0c5d6bc001287cf6556917d97d33504f11b989bead1e4a05981",
+      "shared_sha256": "007a5c40015ff0c5d6bc001287cf6556917d97d33504f11b989bead1e4a05981"
+    },
+    {
+      "path": "Research/runs/strawberry/run.json",
+      "source_sha256": "ead041573a3e8fd0d466f1c2d3ee336868ce75b678be6cd35ff360bb4b63dcae",
+      "shared_sha256": "cc628fa2a3bad467f205797e8813f4854ea14954cac32a469ced41947413ba4d"
+    },
+    {
+      "path": "Research/runs/strawberry/test_comparison.csv",
+      "source_sha256": "b8467a7a5796bfb3607289b866d742bdd0309748c25e12ef354d4bf7a8e16b8f",
+      "shared_sha256": "b8467a7a5796bfb3607289b866d742bdd0309748c25e12ef354d4bf7a8e16b8f"
+    },
+    {
+      "path": "Research/runs/strawberry/test_interval.json",
+      "source_sha256": "53d63e5562f588169ad0c5ed2f1a1fee6571bdb7a29515aa169a5eae6a8dd702",
+      "shared_sha256": "53d63e5562f588169ad0c5ed2f1a1fee6571bdb7a29515aa169a5eae6a8dd702"
+    },
+    {
+      "path": "Research/runs/strawberry/test_linear_confusion.csv",
+      "source_sha256": "62c4a79a8f7230687af799a3c4e98d6748a01b9f11b6ebaab7f048ff14453747",
+      "shared_sha256": "62c4a79a8f7230687af799a3c4e98d6748a01b9f11b6ebaab7f048ff14453747"
+    },
+    {
+      "path": "Research/runs/strawberry/test_linear_scatter.png",
+      "source_sha256": "3653479b0cd93b0cf6bf53f40c890e9d5f1fe4f69eee0111d325b4cfcea5f406",
+      "shared_sha256": "3653479b0cd93b0cf6bf53f40c890e9d5f1fe4f69eee0111d325b4cfcea5f406"
+    },
+    {
+      "path": "Research/runs/strawberry/test_per_date.csv",
+      "source_sha256": "2dd10b854d9c3cc67acb371d5b317a54b79ea87741e1b0a7930b8047be31f34f",
+      "shared_sha256": "2dd10b854d9c3cc67acb371d5b317a54b79ea87741e1b0a7930b8047be31f34f"
+    },
+    {
+      "path": "Research/runs/strawberry/test_transformer_confusion.csv",
+      "source_sha256": "62c4a79a8f7230687af799a3c4e98d6748a01b9f11b6ebaab7f048ff14453747",
+      "shared_sha256": "62c4a79a8f7230687af799a3c4e98d6748a01b9f11b6ebaab7f048ff14453747"
+    },
+    {
+      "path": "Research/runs/strawberry/test_transformer_scatter.png",
+      "source_sha256": "ccc4f6d8a47375cde60d4b421cda00d3e8987b34e9a9700b5be6e8080a574180",
+      "shared_sha256": "ccc4f6d8a47375cde60d4b421cda00d3e8987b34e9a9700b5be6e8080a574180"
+    },
+    {
+      "path": "Research/runs/strawberry/training.png",
+      "source_sha256": "6fab6346f58bc8171694f5a3f86f74515997ca93ec47928f1fee52628c8fccc1",
+      "shared_sha256": "6fab6346f58bc8171694f5a3f86f74515997ca93ec47928f1fee52628c8fccc1"
+    },
+    {
+      "path": "Research/runs/synthetic/history.csv",
+      "source_sha256": "67dd49a6297139dddbb750d2196f4eb69c8cf4788411f3f1a4363adc7abee8b1",
+      "shared_sha256": "67dd49a6297139dddbb750d2196f4eb69c8cf4788411f3f1a4363adc7abee8b1"
+    },
+    {
+      "path": "Research/runs/synthetic/run.json",
+      "source_sha256": "f21009545ed87effa46b6bd8d427c868fa04bc07a4ac1b26f8bb71a454e16e52",
+      "shared_sha256": "7d2100228717c82b36a456bcd11bdc0b3b809ecebeb823461e4663da658f941e"
+    },
+    {
+      "path": "Research/runs/synthetic/test_comparison.csv",
+      "source_sha256": "47837d5c9a5d75bdc22b52e5b9079f21f763321d0c273ef2416f1f2ec479bdc9",
+      "shared_sha256": "47837d5c9a5d75bdc22b52e5b9079f21f763321d0c273ef2416f1f2ec479bdc9"
+    },
+    {
+      "path": "Research/runs/synthetic/test_interval.json",
+      "source_sha256": "187b4648bcd6ec0ca311d6735d0b791541a77afe8e0e71dc57dccf8e366671f4",
+      "shared_sha256": "187b4648bcd6ec0ca311d6735d0b791541a77afe8e0e71dc57dccf8e366671f4"
+    },
+    {
+      "path": "Research/runs/synthetic/test_linear_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/synthetic/test_linear_scatter.png",
+      "source_sha256": "65ed429b44922ab349f25c5cacb65404bfb452a0b6908ad9d4413d4325836c9c",
+      "shared_sha256": "65ed429b44922ab349f25c5cacb65404bfb452a0b6908ad9d4413d4325836c9c"
+    },
+    {
+      "path": "Research/runs/synthetic/test_per_date.csv",
+      "source_sha256": "2a48e13898743743b7c594f5d1831694d7a8e3696d80eaf52dde453e662b2c70",
+      "shared_sha256": "2a48e13898743743b7c594f5d1831694d7a8e3696d80eaf52dde453e662b2c70"
+    },
+    {
+      "path": "Research/runs/synthetic/test_transformer_confusion.csv",
+      "source_sha256": "7f7f1f8a096fdeae6b3c4e5700366aff33fbe6f6004a44a2aec955b03a65a158",
+      "shared_sha256": "7f7f1f8a096fdeae6b3c4e5700366aff33fbe6f6004a44a2aec955b03a65a158"
+    },
+    {
+      "path": "Research/runs/synthetic/test_transformer_scatter.png",
+      "source_sha256": "17fa32a6eaef4e65c0483e8fc71c79e70943200753595e030ba8831c6260dc21",
+      "shared_sha256": "17fa32a6eaef4e65c0483e8fc71c79e70943200753595e030ba8831c6260dc21"
+    },
+    {
+      "path": "Research/runs/synthetic/training.png",
+      "source_sha256": "030ed2d8a4604fcd495ea2b689e237eedae8d4de57323110eeac10f911b537ad",
+      "shared_sha256": "030ed2d8a4604fcd495ea2b689e237eedae8d4de57323110eeac10f911b537ad"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/history.csv",
+      "source_sha256": "25ca23baf1d7157de6404385890a6bb17651335cd9d4c581c2417e1e41205acd",
+      "shared_sha256": "25ca23baf1d7157de6404385890a6bb17651335cd9d4c581c2417e1e41205acd"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/run.json",
+      "source_sha256": "06d14a9cdc8dbe686ea116189202e74070b16ddb7262f32f320fcd57d9169cc8",
+      "shared_sha256": "ebd5bd8d3bc810590217a410ee33a1be5c6af1d99bd873e1777209bb59452f78"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/training.png",
+      "source_sha256": "a5739d595e830003b46c5ca0653798dfe1616495030651d226607c8d6ae98a1e",
+      "shared_sha256": "a5739d595e830003b46c5ca0653798dfe1616495030651d226607c8d6ae98a1e"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/history.csv",
+      "source_sha256": "6dc81d46cb8589aee981f2fcf5fc413ab7c01ad0610fb36152c3bf808b2ca469",
+      "shared_sha256": "6dc81d46cb8589aee981f2fcf5fc413ab7c01ad0610fb36152c3bf808b2ca469"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/README.md",
+      "source_sha256": "003309e3f6255b545295088a5aa295a5c93aa495ce12f3a97f42202887b44462",
+      "shared_sha256": "003309e3f6255b545295088a5aa295a5c93aa495ce12f3a97f42202887b44462"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/run.json",
+      "source_sha256": "1d27d3b8de5ffce41ade150f684227813388c5557996d31f8a8faad390f17f09",
+      "shared_sha256": "70d0d1874e1baf1835b3d1de40bd3f6664bf6e5be7f04b8061d827f2639ab9e5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/training.png",
+      "source_sha256": "f13ebf693b9c03f26dac0c668c9a7b61300096951ff2bbf8fe8ac0762068d9cf",
+      "shared_sha256": "f13ebf693b9c03f26dac0c668c9a7b61300096951ff2bbf8fe8ac0762068d9cf"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/training_protocol.json",
+      "source_sha256": "0b9e239cd82e38f09a91a926b19b55ff126d426df95b831301ca2b0fbc1f5a23",
+      "shared_sha256": "13a14de52a11c4e35021d9f92983053e8e2807914a3d40a5d1b8891a4bff8f62"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/history.csv",
+      "source_sha256": "7c64842f4fdc4f4682429d05a58df3878e9942d80aa83beb889375245b44991f",
+      "shared_sha256": "7c64842f4fdc4f4682429d05a58df3878e9942d80aa83beb889375245b44991f"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/run.json",
+      "source_sha256": "841d47ba82933f1e79594f15b4d272be491ac44f26fcdcabcc823d97607b58aa",
+      "shared_sha256": "bf9f38aa31e811c7474a13065b171f696d2bebb21487eb8ab0d7585ee73ba458"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/training.png",
+      "source_sha256": "edabac5d3e00fa89ee5dffc1d2a352161ae7ea99a12a0e7186d29846586540f5",
+      "shared_sha256": "edabac5d3e00fa89ee5dffc1d2a352161ae7ea99a12a0e7186d29846586540f5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/history.csv",
+      "source_sha256": "8580a9a8d8a3a3e26ca9250d20ac4f821cb92030cae7a2798e2d7d923e59e821",
+      "shared_sha256": "8580a9a8d8a3a3e26ca9250d20ac4f821cb92030cae7a2798e2d7d923e59e821"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/run.json",
+      "source_sha256": "8a3062d559d96a39f84ca8a500e3c7e270c3aeb261282427173824f34afad8eb",
+      "shared_sha256": "30044d9b44bbbe3ac02db39e4c36f40401b76324a9fa5a8d0c3b61fb73093672"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/training.png",
+      "source_sha256": "ed53fde64528f153d5463aa324d3ebe3947bfada43af19f2c9deef6e1053e1e2",
+      "shared_sha256": "ed53fde64528f153d5463aa324d3ebe3947bfada43af19f2c9deef6e1053e1e2"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_comparison.csv",
+      "source_sha256": "42a5603b0c4b243c8da2fe9091ae404b6e343902f18cfd05eaab772836450b8d",
+      "shared_sha256": "42a5603b0c4b243c8da2fe9091ae404b6e343902f18cfd05eaab772836450b8d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_interval.json",
+      "source_sha256": "1f402494e1526c08fb73e2daa3bde7320a2c2856f874d374d0e01e33fcde28a1",
+      "shared_sha256": "1f402494e1526c08fb73e2daa3bde7320a2c2856f874d374d0e01e33fcde28a1"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_per_date.csv",
+      "source_sha256": "dad3f9da3591bf916938a9f53c916f1f917fad1abc9bb926fcf53f51c79136c7",
+      "shared_sha256": "dad3f9da3591bf916938a9f53c916f1f917fad1abc9bb926fcf53f51c79136c7"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_per_horizon.csv",
+      "source_sha256": "ae1420645c07241a5e2168a7f19beb7fd25158b4feb77bb5eeeb61d8e2530de0",
+      "shared_sha256": "ae1420645c07241a5e2168a7f19beb7fd25158b4feb77bb5eeeb61d8e2530de0"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_rmse_by_date.png",
+      "source_sha256": "83d988a182e65c1d51f425d9b6397fa0f961dd38ca9fa3d4d46f4f7a6b797d48",
+      "shared_sha256": "83d988a182e65c1d51f425d9b6397fa0f961dd38ca9fa3d4d46f4f7a6b797d48"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_rmse_by_horizon.png",
+      "source_sha256": "b5c85b991719916965a34ab4c77ba689ab3341f7d4aed4d52dff8819323d8881",
+      "shared_sha256": "b5c85b991719916965a34ab4c77ba689ab3341f7d4aed4d52dff8819323d8881"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_transformer_classes.csv",
+      "source_sha256": "2bcacb2b9caf4097991d0a9c9d9ddd2dc9c5d78dcdd31318079bceb9b3009e74",
+      "shared_sha256": "2bcacb2b9caf4097991d0a9c9d9ddd2dc9c5d78dcdd31318079bceb9b3009e74"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_transformer_confusion.csv",
+      "source_sha256": "a7b0e3c65f6d0f140909f4fe6d1624731ef5a5193e5a518e21cb9c050d5fef16",
+      "shared_sha256": "a7b0e3c65f6d0f140909f4fe6d1624731ef5a5193e5a518e21cb9c050d5fef16"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_transformer_diagnostics.png",
+      "source_sha256": "17045d07b7761ac58cc728de7a3b743c44a200da9e8d19dfc03103fbe9cefcff",
+      "shared_sha256": "17045d07b7761ac58cc728de7a3b743c44a200da9e8d19dfc03103fbe9cefcff"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_manual_01/test_transformer_scatter.png",
+      "source_sha256": "7e59c00c7a3cc1ca87518f77c6f080974190f0bad631d089cd31b5e64a59c7d1",
+      "shared_sha256": "7e59c00c7a3cc1ca87518f77c6f080974190f0bad631d089cd31b5e64a59c7d1"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_comparison.csv",
+      "source_sha256": "42a5603b0c4b243c8da2fe9091ae404b6e343902f18cfd05eaab772836450b8d",
+      "shared_sha256": "42a5603b0c4b243c8da2fe9091ae404b6e343902f18cfd05eaab772836450b8d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_interval.json",
+      "source_sha256": "1f402494e1526c08fb73e2daa3bde7320a2c2856f874d374d0e01e33fcde28a1",
+      "shared_sha256": "1f402494e1526c08fb73e2daa3bde7320a2c2856f874d374d0e01e33fcde28a1"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_per_date.csv",
+      "source_sha256": "dad3f9da3591bf916938a9f53c916f1f917fad1abc9bb926fcf53f51c79136c7",
+      "shared_sha256": "dad3f9da3591bf916938a9f53c916f1f917fad1abc9bb926fcf53f51c79136c7"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "ae1420645c07241a5e2168a7f19beb7fd25158b4feb77bb5eeeb61d8e2530de0",
+      "shared_sha256": "ae1420645c07241a5e2168a7f19beb7fd25158b4feb77bb5eeeb61d8e2530de0"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "83d988a182e65c1d51f425d9b6397fa0f961dd38ca9fa3d4d46f4f7a6b797d48",
+      "shared_sha256": "83d988a182e65c1d51f425d9b6397fa0f961dd38ca9fa3d4d46f4f7a6b797d48"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "b5c85b991719916965a34ab4c77ba689ab3341f7d4aed4d52dff8819323d8881",
+      "shared_sha256": "b5c85b991719916965a34ab4c77ba689ab3341f7d4aed4d52dff8819323d8881"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "2bcacb2b9caf4097991d0a9c9d9ddd2dc9c5d78dcdd31318079bceb9b3009e74",
+      "shared_sha256": "2bcacb2b9caf4097991d0a9c9d9ddd2dc9c5d78dcdd31318079bceb9b3009e74"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "a7b0e3c65f6d0f140909f4fe6d1624731ef5a5193e5a518e21cb9c050d5fef16",
+      "shared_sha256": "a7b0e3c65f6d0f140909f4fe6d1624731ef5a5193e5a518e21cb9c050d5fef16"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "17045d07b7761ac58cc728de7a3b743c44a200da9e8d19dfc03103fbe9cefcff",
+      "shared_sha256": "17045d07b7761ac58cc728de7a3b743c44a200da9e8d19dfc03103fbe9cefcff"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/v1/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "7e59c00c7a3cc1ca87518f77c6f080974190f0bad631d089cd31b5e64a59c7d1",
+      "shared_sha256": "7e59c00c7a3cc1ca87518f77c6f080974190f0bad631d089cd31b5e64a59c7d1"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_comparison.csv",
+      "source_sha256": "0efbea7871a134e4558b42bff8158c2c0f6702db31062f690923fb7d89c82745",
+      "shared_sha256": "0efbea7871a134e4558b42bff8158c2c0f6702db31062f690923fb7d89c82745"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_coverage.csv",
+      "source_sha256": "0826b726a4af5a1e840c42f728f0f48c4154e1af64107e13b4f9d9b5b344f914",
+      "shared_sha256": "0826b726a4af5a1e840c42f728f0f48c4154e1af64107e13b4f9d9b5b344f914"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_coverage.json",
+      "source_sha256": "3603c795ba45fc3ecceda31b54cce63f35ee8deb2cc9161d0b016c794541b07d",
+      "shared_sha256": "3603c795ba45fc3ecceda31b54cce63f35ee8deb2cc9161d0b016c794541b07d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_interval.json",
+      "source_sha256": "3af7011e467d22248c031014f9309ca683b68b1e5588c60d1d1c24859aa8388d",
+      "shared_sha256": "3af7011e467d22248c031014f9309ca683b68b1e5588c60d1d1c24859aa8388d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "b88d37c92255112e4c0b3a6848fa211ac46ec4ba60aed9f03bacbd8ba7ef9903",
+      "shared_sha256": "b88d37c92255112e4c0b3a6848fa211ac46ec4ba60aed9f03bacbd8ba7ef9903"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "65ed429b44922ab349f25c5cacb65404bfb452a0b6908ad9d4413d4325836c9c",
+      "shared_sha256": "65ed429b44922ab349f25c5cacb65404bfb452a0b6908ad9d4413d4325836c9c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "952da11b9aefa127c36d6d5992d4ced3a89430739eeb2714b42c3b9448ab5600",
+      "shared_sha256": "952da11b9aefa127c36d6d5992d4ced3a89430739eeb2714b42c3b9448ab5600"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "b4f7d16ae034828dbcdd4816e25206f02f0f3dbee8003f38b1eefb6d641cde05",
+      "shared_sha256": "b4f7d16ae034828dbcdd4816e25206f02f0f3dbee8003f38b1eefb6d641cde05"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_per_date.csv",
+      "source_sha256": "bf6c6cb6c7f08e2db89cfe139b9f076cb08d0777ca7caaeb6f1171759bca913c",
+      "shared_sha256": "bf6c6cb6c7f08e2db89cfe139b9f076cb08d0777ca7caaeb6f1171759bca913c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "eac85fb6ea029d4f9c6144f4b089d93f90433854299866d459a0bba0eebd403c",
+      "shared_sha256": "eac85fb6ea029d4f9c6144f4b089d93f90433854299866d459a0bba0eebd403c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "73aca65c154c4fbb6189d10025596c5f866ee21943f000baf76edbacee838583",
+      "shared_sha256": "73aca65c154c4fbb6189d10025596c5f866ee21943f000baf76edbacee838583"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "40b39d4824ef31f392dce36e546cfb445699fbc62703f0568d3692fb4138958b",
+      "shared_sha256": "40b39d4824ef31f392dce36e546cfb445699fbc62703f0568d3692fb4138958b"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "81ea747b40f3b0310d5aeb4e39dec3628d323f81f8702aeb08550bed180906d2",
+      "shared_sha256": "81ea747b40f3b0310d5aeb4e39dec3628d323f81f8702aeb08550bed180906d2"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "7f7f1f8a096fdeae6b3c4e5700366aff33fbe6f6004a44a2aec955b03a65a158",
+      "shared_sha256": "7f7f1f8a096fdeae6b3c4e5700366aff33fbe6f6004a44a2aec955b03a65a158"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "3dbd7ab9017171c201b9f5929c1cedfa231db33272bfd9fe998922f719e7924c",
+      "shared_sha256": "3dbd7ab9017171c201b9f5929c1cedfa231db33272bfd9fe998922f719e7924c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/smoke/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "f80c137a2489459bf3a9c52b97a6d6b839372a094e20688c3a4779c9c6fcc231",
+      "shared_sha256": "f80c137a2489459bf3a9c52b97a6d6b839372a094e20688c3a4779c9c6fcc231"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_comparison.csv",
+      "source_sha256": "dfa07ef5c2edd87b492cc5705adc51931958b4368a3cd09a1984d7ed4c05abf4",
+      "shared_sha256": "dfa07ef5c2edd87b492cc5705adc51931958b4368a3cd09a1984d7ed4c05abf4"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_interval.json",
+      "source_sha256": "16a9980bb41df6947629dc52d8907c64c23358fbe02030e4f63f6e0cfd64e2a9",
+      "shared_sha256": "16a9980bb41df6947629dc52d8907c64c23358fbe02030e4f63f6e0cfd64e2a9"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_per_date.csv",
+      "source_sha256": "2034ee2d9a5cc7dfc07413fe3fdb7b6ad27b29149a19fc8731da49b81e54baed",
+      "shared_sha256": "2034ee2d9a5cc7dfc07413fe3fdb7b6ad27b29149a19fc8731da49b81e54baed"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "c5b5a2887faa86be1f18e26fd9b68cff532c7c4d78a2ab689494f0c6ee3c132d",
+      "shared_sha256": "c5b5a2887faa86be1f18e26fd9b68cff532c7c4d78a2ab689494f0c6ee3c132d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "eff7cc53e2cfc8fcc5d26d7846bf921017c9caef65de0672e8e916ea81b733f0",
+      "shared_sha256": "eff7cc53e2cfc8fcc5d26d7846bf921017c9caef65de0672e8e916ea81b733f0"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "c9e35735bed80c2791ba088b804c6821b5772b0d481c7fef15e439a7bb3692c1",
+      "shared_sha256": "c9e35735bed80c2791ba088b804c6821b5772b0d481c7fef15e439a7bb3692c1"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "d80f2ed927b57ffe86bca394b4e11b4b4aeb74948f3e07db0e78b539a6bf81ef",
+      "shared_sha256": "d80f2ed927b57ffe86bca394b4e11b4b4aeb74948f3e07db0e78b539a6bf81ef"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "381b5536c7355cce759d301c242f583230526c85199b99cddac1f07d7bccd4ef",
+      "shared_sha256": "381b5536c7355cce759d301c242f583230526c85199b99cddac1f07d7bccd4ef"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "7d18c9c4247f4de1fd738e5223eff8166d1f610ac329a989b5e5c41cd219030c",
+      "shared_sha256": "7d18c9c4247f4de1fd738e5223eff8166d1f610ac329a989b5e5c41cd219030c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "7cd74f746c7d90fa49eb4ff0dafad97769c80fc256380295f11620e401678645",
+      "shared_sha256": "7cd74f746c7d90fa49eb4ff0dafad97769c80fc256380295f11620e401678645"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_comparison.csv",
+      "source_sha256": "88b450f0b7486ec8b9f510370ee04f0de792561344d419e5f9e349bf3b4d09de",
+      "shared_sha256": "88b450f0b7486ec8b9f510370ee04f0de792561344d419e5f9e349bf3b4d09de"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_coverage.csv",
+      "source_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5",
+      "shared_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_coverage.json",
+      "source_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b",
+      "shared_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_interval.json",
+      "source_sha256": "044a8dc9c6326e1559bf9e46793f9093b0d978ec634d751c817f50cdde2f5711",
+      "shared_sha256": "044a8dc9c6326e1559bf9e46793f9093b0d978ec634d751c817f50cdde2f5711"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_linear_classes.csv",
+      "source_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e",
+      "shared_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_linear_confusion.csv",
+      "source_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec",
+      "shared_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_linear_diagnostics.png",
+      "source_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00",
+      "shared_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_linear_scatter.png",
+      "source_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225",
+      "shared_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_persistence_classes.csv",
+      "source_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c",
+      "shared_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_persistence_confusion.csv",
+      "source_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c",
+      "shared_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_persistence_diagnostics.png",
+      "source_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26",
+      "shared_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_persistence_scatter.png",
+      "source_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c",
+      "shared_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_per_date.csv",
+      "source_sha256": "f47bfe0cbae59ecc1f3a2b86d30787280a8fee2e2b289b1964c07f7e8a552706",
+      "shared_sha256": "f47bfe0cbae59ecc1f3a2b86d30787280a8fee2e2b289b1964c07f7e8a552706"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_per_horizon.csv",
+      "source_sha256": "55ffd0daac8c1a33425a61a1f47323d59e49da69830dc13154e603276204bc25",
+      "shared_sha256": "55ffd0daac8c1a33425a61a1f47323d59e49da69830dc13154e603276204bc25"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_rmse_by_date.png",
+      "source_sha256": "e394a0a47861490b84b35cf2a1c2e2ec8acdaf41e907a24b9c4e29baa310790f",
+      "shared_sha256": "e394a0a47861490b84b35cf2a1c2e2ec8acdaf41e907a24b9c4e29baa310790f"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_rmse_by_horizon.png",
+      "source_sha256": "a9696f3c1ff04e05c88b01e2a92e0843dd02bad9f0d62f7ee33090a635e34b57",
+      "shared_sha256": "a9696f3c1ff04e05c88b01e2a92e0843dd02bad9f0d62f7ee33090a635e34b57"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_transformer_classes.csv",
+      "source_sha256": "ccceb720d9958aa8ab1f057e611752700767027034a708c65f8ffe0b86db3f7e",
+      "shared_sha256": "ccceb720d9958aa8ab1f057e611752700767027034a708c65f8ffe0b86db3f7e"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_transformer_confusion.csv",
+      "source_sha256": "f305ee8fa4962651577a7d0aaa4356c9e8d2d8d0a45de4c5505e11afef552823",
+      "shared_sha256": "f305ee8fa4962651577a7d0aaa4356c9e8d2d8d0a45de4c5505e11afef552823"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_transformer_diagnostics.png",
+      "source_sha256": "98c21f4cf682743805b97baf21a58cccab17f6585b80047da938283518412878",
+      "shared_sha256": "98c21f4cf682743805b97baf21a58cccab17f6585b80047da938283518412878"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/retrain_2026-11-18/evaluation_validation/validation_transformer_scatter.png",
+      "source_sha256": "073796a072b4881da67e5ebdbbe87b0f577d684bb6917aebc11ecd005654553a",
+      "shared_sha256": "073796a072b4881da67e5ebdbbe87b0f577d684bb6917aebc11ecd005654553a"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_comparison.csv",
+      "source_sha256": "c577edce4d40fdca1260d424540f809edf77508163c6bd20e20a03a30f1de7ca",
+      "shared_sha256": "c577edce4d40fdca1260d424540f809edf77508163c6bd20e20a03a30f1de7ca"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_coverage.csv",
+      "source_sha256": "0826b726a4af5a1e840c42f728f0f48c4154e1af64107e13b4f9d9b5b344f914",
+      "shared_sha256": "0826b726a4af5a1e840c42f728f0f48c4154e1af64107e13b4f9d9b5b344f914"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_coverage.json",
+      "source_sha256": "3603c795ba45fc3ecceda31b54cce63f35ee8deb2cc9161d0b016c794541b07d",
+      "shared_sha256": "3603c795ba45fc3ecceda31b54cce63f35ee8deb2cc9161d0b016c794541b07d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_interval.json",
+      "source_sha256": "469196c1a4a9953649437ea9d1c35c1b7f64f3c843dc233bbba8548bd47bf81b",
+      "shared_sha256": "469196c1a4a9953649437ea9d1c35c1b7f64f3c843dc233bbba8548bd47bf81b"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "b88d37c92255112e4c0b3a6848fa211ac46ec4ba60aed9f03bacbd8ba7ef9903",
+      "shared_sha256": "b88d37c92255112e4c0b3a6848fa211ac46ec4ba60aed9f03bacbd8ba7ef9903"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "65ed429b44922ab349f25c5cacb65404bfb452a0b6908ad9d4413d4325836c9c",
+      "shared_sha256": "65ed429b44922ab349f25c5cacb65404bfb452a0b6908ad9d4413d4325836c9c"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "952da11b9aefa127c36d6d5992d4ced3a89430739eeb2714b42c3b9448ab5600",
+      "shared_sha256": "952da11b9aefa127c36d6d5992d4ced3a89430739eeb2714b42c3b9448ab5600"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "b4f7d16ae034828dbcdd4816e25206f02f0f3dbee8003f38b1eefb6d641cde05",
+      "shared_sha256": "b4f7d16ae034828dbcdd4816e25206f02f0f3dbee8003f38b1eefb6d641cde05"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_per_date.csv",
+      "source_sha256": "b5c40424e45edb2d617b38cb815cf161a618ee7a94ff3f4340cf96192b5d6f83",
+      "shared_sha256": "b5c40424e45edb2d617b38cb815cf161a618ee7a94ff3f4340cf96192b5d6f83"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "3935fc3d6f3d7b02ff03c734533f5fda88eb43b91ef6bbbdd8c0af37dad86ba5",
+      "shared_sha256": "3935fc3d6f3d7b02ff03c734533f5fda88eb43b91ef6bbbdd8c0af37dad86ba5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "3ee2faa8658237dc095ada549639f7776a36b2f103c032077b91f62db45911c4",
+      "shared_sha256": "3ee2faa8658237dc095ada549639f7776a36b2f103c032077b91f62db45911c4"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "d4d0f978420b4332cd3ebcc43b2740bc1ea65c8e3e7e67f9d60e7e390f64c37d",
+      "shared_sha256": "d4d0f978420b4332cd3ebcc43b2740bc1ea65c8e3e7e67f9d60e7e390f64c37d"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "c89cf68249a4119d119d99a1ccc6ce11b059ecb5aae7fd07d948f60855e362d7",
+      "shared_sha256": "c89cf68249a4119d119d99a1ccc6ce11b059ecb5aae7fd07d948f60855e362d7"
+    },
+    {
+      "path": "Research/runs/spatial_generalization/cli_validation/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "a74bd2689e957ae9da7c63ce596926623137ad1257ea5ad8e54ccfa14e8100dd",
+      "shared_sha256": "a74bd2689e957ae9da7c63ce596926623137ad1257ea5ad8e54ccfa14e8100dd"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/comparison.md",
+      "source_sha256": "27e8a6cfeaad7369efc37e81662d79806225f367d5680949b1472bc2c3426adf",
+      "shared_sha256": "27e8a6cfeaad7369efc37e81662d79806225f367d5680949b1472bc2c3426adf"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/completed_runs.json",
+      "source_sha256": "b7b1c69d69cd273fec3379c8fcbb3c2fe4dbcb1c26aa5972bc05e5ca2d41538d",
+      "shared_sha256": "9fe92cd2627c5ed5a21932bf24835fb754dd65b2c031342c2175a4d0d80f1b71"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/paired_comparison.png",
+      "source_sha256": "c3e1255e35ca4bfeef0659f63b8a95a881e75b1fba10e4dc29eda8a281c21221",
+      "shared_sha256": "c3e1255e35ca4bfeef0659f63b8a95a881e75b1fba10e4dc29eda8a281c21221"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/paired_scores.csv",
+      "source_sha256": "b02596a4505f288861c88dc749f755ec3e1bc61422b93298d26c6d93558b0816",
+      "shared_sha256": "e10070b5458baca535caa132b1559016041b777ee908a06e555473cf6880a37c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/paired_test.json",
+      "source_sha256": "0d575caeb9b56b21eac3e121dc48e243c7375d6a78a66046f9c2bea87f16174a",
+      "shared_sha256": "0d575caeb9b56b21eac3e121dc48e243c7375d6a78a66046f9c2bea87f16174a"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/protocol.json",
+      "source_sha256": "1fdb855c6c8cf5d37b72c4ce43d05711771c522880a6b26160776e7fa2127369",
+      "shared_sha256": "9f40ea70efa86d061e583fa72ab17708276fd87c18ed8895cc26aaedbc5040eb"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/history.csv",
+      "source_sha256": "f16becfbb2987ff208ea83638c5c6664edf270a48c53ffaa4591a457d00de921",
+      "shared_sha256": "f16becfbb2987ff208ea83638c5c6664edf270a48c53ffaa4591a457d00de921"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/run.json",
+      "source_sha256": "a3746a486a8fe0bd58ab66aec0dcc0dc73931c3a8f3b9cd74e56ebc8ea1f31d8",
+      "shared_sha256": "0f73feb8967f6a3b8e2894493b66b97fdd853fc811051b5a790d27f71606fe9d"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/training.png",
+      "source_sha256": "5ea3f3e0d76288d147cffc33dc16173af7366dabc50fdde8bb1f76ec48bebb41",
+      "shared_sha256": "5ea3f3e0d76288d147cffc33dc16173af7366dabc50fdde8bb1f76ec48bebb41"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/history.csv",
+      "source_sha256": "3af5c08fa035c80f645423c90bdd409275c92775338fac315fad520097b0ce80",
+      "shared_sha256": "3af5c08fa035c80f645423c90bdd409275c92775338fac315fad520097b0ce80"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/run.json",
+      "source_sha256": "14d1362d57e9ca33d481af3c7f89fec4b3abe233a1994b0a33068835660b4194",
+      "shared_sha256": "0dd76291ebf68a10b46f50b079b3f019a5772ee3c235638ec8888698c6d7ace2"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/training.png",
+      "source_sha256": "f61fbfd46b1ae6b3c507971ec355ac40fae551cd620d5632f6961393c12a6c66",
+      "shared_sha256": "f61fbfd46b1ae6b3c507971ec355ac40fae551cd620d5632f6961393c12a6c66"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/history.csv",
+      "source_sha256": "34b2112a863b10b8bbedeccb5d6d368fe47bad2151101fdc1275cdabe198e577",
+      "shared_sha256": "34b2112a863b10b8bbedeccb5d6d368fe47bad2151101fdc1275cdabe198e577"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/run.json",
+      "source_sha256": "7d7aa1b3549ffa6bcdbf95a3b42886d42c555bb2bf6e9116c747d54417900ad4",
+      "shared_sha256": "8b1c06a986ce94546bced131cab48d1dc2210a4f66c97baca2d4e758d5c28432"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/training.png",
+      "source_sha256": "0715fcb68c328bb4518b88810ad12920c38d35d5576d046a1deac32b72bcec50",
+      "shared_sha256": "0715fcb68c328bb4518b88810ad12920c38d35d5576d046a1deac32b72bcec50"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/history.csv",
+      "source_sha256": "056fe5c6f6eff58511d1ec7a0f88256a7f985b57eea9cd9636ce74f94f9ee227",
+      "shared_sha256": "056fe5c6f6eff58511d1ec7a0f88256a7f985b57eea9cd9636ce74f94f9ee227"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/run.json",
+      "source_sha256": "12f7c271fe8475f6f1a43d986309a9ea5b17d308d19e168129b2ff0aabc06919",
+      "shared_sha256": "03906969bd64b979fa9bc46313cc33f3c2e50a1f6bc3ba11d89ac5de7715d630"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/training.png",
+      "source_sha256": "e5db66ded324daf0dfa0991f78a42fd3dfbe69cb92834c327822485b95e87ba1",
+      "shared_sha256": "e5db66ded324daf0dfa0991f78a42fd3dfbe69cb92834c327822485b95e87ba1"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_comparison.csv",
+      "source_sha256": "6843cf1a0f016447b987e7da04a24edc435be056f2a6e82ca1b54c79307281f8",
+      "shared_sha256": "6843cf1a0f016447b987e7da04a24edc435be056f2a6e82ca1b54c79307281f8"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_interval.json",
+      "source_sha256": "50783bc1969bdeec5799fb3707c221cae3a3dbcdcbe110bbb2f0e6e3d087daff",
+      "shared_sha256": "50783bc1969bdeec5799fb3707c221cae3a3dbcdcbe110bbb2f0e6e3d087daff"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_per_date.csv",
+      "source_sha256": "b017420df812d80efad6b3f4432e10087f2c58e260b564d9d9797fa90c1f2eeb",
+      "shared_sha256": "b017420df812d80efad6b3f4432e10087f2c58e260b564d9d9797fa90c1f2eeb"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "f3002b8626f1ebe3e10924aac7f6001ebc450d50a251cf4fe21398a0db27711d",
+      "shared_sha256": "f3002b8626f1ebe3e10924aac7f6001ebc450d50a251cf4fe21398a0db27711d"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "ba5b024c83e1068c3f26643bce6d87e6d77d4a5b3a703ed0d0cd159ae8c0f870",
+      "shared_sha256": "ba5b024c83e1068c3f26643bce6d87e6d77d4a5b3a703ed0d0cd159ae8c0f870"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "a28cf70d4052aab2b2b396b51f27cc476f08a2ce9710d757294a1f858a88d5b8",
+      "shared_sha256": "a28cf70d4052aab2b2b396b51f27cc476f08a2ce9710d757294a1f858a88d5b8"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "8a6e383f9709a8376d143ea9674316d39a9cc5b7f9e79ac6344857745449f60b",
+      "shared_sha256": "8a6e383f9709a8376d143ea9674316d39a9cc5b7f9e79ac6344857745449f60b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "da39bed55f8c5b6697a08c28e301a7f09a8398e106af0481630c8bffcb4573bd",
+      "shared_sha256": "da39bed55f8c5b6697a08c28e301a7f09a8398e106af0481630c8bffcb4573bd"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "b19b633cf32eb827e383e3fc019061b6e12895c34b0d8e72864bb168a61086f1",
+      "shared_sha256": "b19b633cf32eb827e383e3fc019061b6e12895c34b0d8e72864bb168a61086f1"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "199c4435d0aa33567268fe3129fde0b11c88a2fbb68b3ae02ae91debde4b890b",
+      "shared_sha256": "199c4435d0aa33567268fe3129fde0b11c88a2fbb68b3ae02ae91debde4b890b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_comparison.csv",
+      "source_sha256": "98411b9174372e02ef52e4ad22c9bcbc07a9b58a1d5b4c02e42c201a9dd69695",
+      "shared_sha256": "98411b9174372e02ef52e4ad22c9bcbc07a9b58a1d5b4c02e42c201a9dd69695"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_coverage.csv",
+      "source_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5",
+      "shared_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_coverage.json",
+      "source_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b",
+      "shared_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_interval.json",
+      "source_sha256": "3340794f634b2e7fca33f87a610f8568980494f6281b17037022de5d964f50fb",
+      "shared_sha256": "3340794f634b2e7fca33f87a610f8568980494f6281b17037022de5d964f50fb"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_linear_classes.csv",
+      "source_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e",
+      "shared_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_linear_confusion.csv",
+      "source_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec",
+      "shared_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_linear_diagnostics.png",
+      "source_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00",
+      "shared_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_linear_scatter.png",
+      "source_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225",
+      "shared_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_persistence_classes.csv",
+      "source_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c",
+      "shared_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_persistence_confusion.csv",
+      "source_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c",
+      "shared_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_persistence_diagnostics.png",
+      "source_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26",
+      "shared_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_persistence_scatter.png",
+      "source_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c",
+      "shared_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_per_date.csv",
+      "source_sha256": "f20bb089c11b5b567642f409a9e07ce90c11fb990b5353005fa8b5de1ff1aacb",
+      "shared_sha256": "f20bb089c11b5b567642f409a9e07ce90c11fb990b5353005fa8b5de1ff1aacb"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_per_horizon.csv",
+      "source_sha256": "77677f526e582b15ac5059fb6ec8f87f0a6611221bdc7f876f815f54c0d9ee94",
+      "shared_sha256": "77677f526e582b15ac5059fb6ec8f87f0a6611221bdc7f876f815f54c0d9ee94"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_rmse_by_date.png",
+      "source_sha256": "86baf8fe2faff8f657f8e40961b5b82eeb56c28ab8225d31f85b7aaabf958f67",
+      "shared_sha256": "86baf8fe2faff8f657f8e40961b5b82eeb56c28ab8225d31f85b7aaabf958f67"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_rmse_by_horizon.png",
+      "source_sha256": "333cab8e15a690cf6f472d730e53c574ae770114cc9856a51403e92b6d79e99f",
+      "shared_sha256": "333cab8e15a690cf6f472d730e53c574ae770114cc9856a51403e92b6d79e99f"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_transformer_classes.csv",
+      "source_sha256": "d5912da1950d19f59443480ed6a933b2a57d85b3729e39675208dd922bbaf2de",
+      "shared_sha256": "d5912da1950d19f59443480ed6a933b2a57d85b3729e39675208dd922bbaf2de"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_transformer_confusion.csv",
+      "source_sha256": "7a3dfd8377c5863cbccd98093219601106a5592c7df10703eef80857544a1300",
+      "shared_sha256": "7a3dfd8377c5863cbccd98093219601106a5592c7df10703eef80857544a1300"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_transformer_diagnostics.png",
+      "source_sha256": "115e1088ca1272dc339420b17e746b4266f0cc04872aa0e74ab0283c723a5eef",
+      "shared_sha256": "115e1088ca1272dc339420b17e746b4266f0cc04872aa0e74ab0283c723a5eef"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_46/evaluation_validation/validation_transformer_scatter.png",
+      "source_sha256": "51ed772444855172c40c1a13fc12500f63c3f49b6852ee8fb0312dd4b4cf962e",
+      "shared_sha256": "51ed772444855172c40c1a13fc12500f63c3f49b6852ee8fb0312dd4b4cf962e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_comparison.csv",
+      "source_sha256": "1aaee7ab12a0c4e8db1dc04ee1b2a21a5dc7efe382c134844a906f4abacecc3c",
+      "shared_sha256": "1aaee7ab12a0c4e8db1dc04ee1b2a21a5dc7efe382c134844a906f4abacecc3c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_interval.json",
+      "source_sha256": "f5d792c9f1bb6edd01d516b5668cffd90014f0cf668f97833ee02229fcfaf30d",
+      "shared_sha256": "f5d792c9f1bb6edd01d516b5668cffd90014f0cf668f97833ee02229fcfaf30d"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_per_date.csv",
+      "source_sha256": "dd847d198d525ea9be6531782c847c07baa4c96eb2323bff0f4a6fc524af1b9d",
+      "shared_sha256": "dd847d198d525ea9be6531782c847c07baa4c96eb2323bff0f4a6fc524af1b9d"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "36ec90d51363685c8a5cd8cee0b33252e6f73d1e8485d53947a100767083a1a1",
+      "shared_sha256": "36ec90d51363685c8a5cd8cee0b33252e6f73d1e8485d53947a100767083a1a1"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "5f5ddfc87e61effba615ebf1892daa26b840490a3ab7dc5e84bc89b711de225f",
+      "shared_sha256": "5f5ddfc87e61effba615ebf1892daa26b840490a3ab7dc5e84bc89b711de225f"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "03d600d6466665bbf7c5d6f424c1294496291a7f66c96538804b86c401bc8ea3",
+      "shared_sha256": "03d600d6466665bbf7c5d6f424c1294496291a7f66c96538804b86c401bc8ea3"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "fb51dee15e377bb59c0d285605909efdec2c405ab635194c0e07a240cc5e7f59",
+      "shared_sha256": "fb51dee15e377bb59c0d285605909efdec2c405ab635194c0e07a240cc5e7f59"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "c9bd7a508b0f12f65cda655ce8d239afae7f9074bfd9d1b0a6d3bb7d06262467",
+      "shared_sha256": "c9bd7a508b0f12f65cda655ce8d239afae7f9074bfd9d1b0a6d3bb7d06262467"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "f1458ba6bd891610b965b6fc4a2f80fb950be25e911e543829cfe94489f66693",
+      "shared_sha256": "f1458ba6bd891610b965b6fc4a2f80fb950be25e911e543829cfe94489f66693"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "bd2cfe40d8af97f4bacd6ff3d1ae1fe066e8d69a9bdeafd116c2357b56ba65ce",
+      "shared_sha256": "bd2cfe40d8af97f4bacd6ff3d1ae1fe066e8d69a9bdeafd116c2357b56ba65ce"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_comparison.csv",
+      "source_sha256": "448466ee97134cbcaf65970ec34a1969c69ce31aba6e079eac4e14697d89ffec",
+      "shared_sha256": "448466ee97134cbcaf65970ec34a1969c69ce31aba6e079eac4e14697d89ffec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_coverage.csv",
+      "source_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5",
+      "shared_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_coverage.json",
+      "source_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b",
+      "shared_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_interval.json",
+      "source_sha256": "4b0b69cdc5d48e1d46a10fc15e657b7a6832ecd1c0339cc4a33546e1316c0fc2",
+      "shared_sha256": "4b0b69cdc5d48e1d46a10fc15e657b7a6832ecd1c0339cc4a33546e1316c0fc2"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_linear_classes.csv",
+      "source_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e",
+      "shared_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_linear_confusion.csv",
+      "source_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec",
+      "shared_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_linear_diagnostics.png",
+      "source_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00",
+      "shared_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_linear_scatter.png",
+      "source_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225",
+      "shared_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_persistence_classes.csv",
+      "source_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c",
+      "shared_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_persistence_confusion.csv",
+      "source_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c",
+      "shared_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_persistence_diagnostics.png",
+      "source_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26",
+      "shared_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_persistence_scatter.png",
+      "source_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c",
+      "shared_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_per_date.csv",
+      "source_sha256": "c1e0ddc45888735eb3e8dd9b41b5be2659eca5e605aedba0387bc1d70ea7f2ec",
+      "shared_sha256": "c1e0ddc45888735eb3e8dd9b41b5be2659eca5e605aedba0387bc1d70ea7f2ec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_per_horizon.csv",
+      "source_sha256": "6516fee97c2d3b4b2827a135ca67b5641b52fb5a6c362785e565e71f9c008a2f",
+      "shared_sha256": "6516fee97c2d3b4b2827a135ca67b5641b52fb5a6c362785e565e71f9c008a2f"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_rmse_by_date.png",
+      "source_sha256": "065c726360d7d7c736ad5a38388de3b52b00dd11d22b9ccc9c9581e7b63fda5a",
+      "shared_sha256": "065c726360d7d7c736ad5a38388de3b52b00dd11d22b9ccc9c9581e7b63fda5a"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_rmse_by_horizon.png",
+      "source_sha256": "1a4607ebee7b6e4cb35ce9ad9fc0ff26463ebe8ee2351ce82d363c535e6e9781",
+      "shared_sha256": "1a4607ebee7b6e4cb35ce9ad9fc0ff26463ebe8ee2351ce82d363c535e6e9781"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_transformer_classes.csv",
+      "source_sha256": "805b7be0d38d0d77503c93a9163a33d664c00379101d9d0687f3de8e0378282f",
+      "shared_sha256": "805b7be0d38d0d77503c93a9163a33d664c00379101d9d0687f3de8e0378282f"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_transformer_confusion.csv",
+      "source_sha256": "4f5496ac546a529fad8c946c6c40f849d0f53c8c025d1e6972168a88080c5bf9",
+      "shared_sha256": "4f5496ac546a529fad8c946c6c40f849d0f53c8c025d1e6972168a88080c5bf9"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_transformer_diagnostics.png",
+      "source_sha256": "526e456cf0bd40ff74ad83220d009ec3cb572fdd6bccbb59737e9cbb0356d004",
+      "shared_sha256": "526e456cf0bd40ff74ad83220d009ec3cb572fdd6bccbb59737e9cbb0356d004"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_45/evaluation_validation/validation_transformer_scatter.png",
+      "source_sha256": "623c8762f12d5aa3101cfa7329cf5830e12ad28702225fcc9a821778908cc2a6",
+      "shared_sha256": "623c8762f12d5aa3101cfa7329cf5830e12ad28702225fcc9a821778908cc2a6"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_comparison.csv",
+      "source_sha256": "0104055e58aedd00395921962872369c12bd7eb39ea7edc594f56639963aefbb",
+      "shared_sha256": "0104055e58aedd00395921962872369c12bd7eb39ea7edc594f56639963aefbb"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_interval.json",
+      "source_sha256": "c2ff43500a85137f4c9bc3cba14d2222b9550d4cc9764976e17b60d72c00b525",
+      "shared_sha256": "c2ff43500a85137f4c9bc3cba14d2222b9550d4cc9764976e17b60d72c00b525"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_per_date.csv",
+      "source_sha256": "988728752406bce0d82f4ad476e5f867696761ff668eacc0ab5c18b87b47c26f",
+      "shared_sha256": "988728752406bce0d82f4ad476e5f867696761ff668eacc0ab5c18b87b47c26f"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "cfaf3689b77f4505f5230a9e78b6c4b4fcb5283f60d5a8d1f5dbcd78c2df2fe5",
+      "shared_sha256": "cfaf3689b77f4505f5230a9e78b6c4b4fcb5283f60d5a8d1f5dbcd78c2df2fe5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "d07f7322ce12172ff94a1e4344c927f5c222c36b9f9d9bd1545dd24731119a29",
+      "shared_sha256": "d07f7322ce12172ff94a1e4344c927f5c222c36b9f9d9bd1545dd24731119a29"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "a7d8fe0fa31dbabf217c2b0f5f0293845c5d428259eb4ad3905119e6c24b776c",
+      "shared_sha256": "a7d8fe0fa31dbabf217c2b0f5f0293845c5d428259eb4ad3905119e6c24b776c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "62ee1d1e39269ca7bb3d668425c4d8633bc052284ab694e98e9a5c13d28ad309",
+      "shared_sha256": "62ee1d1e39269ca7bb3d668425c4d8633bc052284ab694e98e9a5c13d28ad309"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "a88bc4e5225d5d13b7e1c4422bc4d7a6788b7cd8009cc4a55325b5c3d21ba6a1",
+      "shared_sha256": "a88bc4e5225d5d13b7e1c4422bc4d7a6788b7cd8009cc4a55325b5c3d21ba6a1"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "f0f4ba3d04450cc163d912afdbfc8448e12586bd1d3181608b4bc332d4df91b0",
+      "shared_sha256": "f0f4ba3d04450cc163d912afdbfc8448e12586bd1d3181608b4bc332d4df91b0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "437acbed99487c1aa357422257f4f60fb5f853b6dddd2123e72b58933cdf6679",
+      "shared_sha256": "437acbed99487c1aa357422257f4f60fb5f853b6dddd2123e72b58933cdf6679"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_comparison.csv",
+      "source_sha256": "16c5f736f80ea90747119582fbcc0a95ca5d6158e0aad3d672f57e7b0bd15243",
+      "shared_sha256": "16c5f736f80ea90747119582fbcc0a95ca5d6158e0aad3d672f57e7b0bd15243"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_coverage.csv",
+      "source_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5",
+      "shared_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_coverage.json",
+      "source_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b",
+      "shared_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_interval.json",
+      "source_sha256": "eb27d1cc5b9c9179608c9c12e45ac98dd17118115967984fc3cc38d36038e79c",
+      "shared_sha256": "eb27d1cc5b9c9179608c9c12e45ac98dd17118115967984fc3cc38d36038e79c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_linear_classes.csv",
+      "source_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e",
+      "shared_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_linear_confusion.csv",
+      "source_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec",
+      "shared_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_linear_diagnostics.png",
+      "source_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00",
+      "shared_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_linear_scatter.png",
+      "source_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225",
+      "shared_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_persistence_classes.csv",
+      "source_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c",
+      "shared_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_persistence_confusion.csv",
+      "source_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c",
+      "shared_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_persistence_diagnostics.png",
+      "source_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26",
+      "shared_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_persistence_scatter.png",
+      "source_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c",
+      "shared_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_per_date.csv",
+      "source_sha256": "9949afe4a69e7bf29ef283d734670e0d47c93595eed39c957a10b61b552c2d41",
+      "shared_sha256": "9949afe4a69e7bf29ef283d734670e0d47c93595eed39c957a10b61b552c2d41"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_per_horizon.csv",
+      "source_sha256": "21283977aa06e4eea8aca65abf9b4c2526f0708c534124f580c38cca5e66cc80",
+      "shared_sha256": "21283977aa06e4eea8aca65abf9b4c2526f0708c534124f580c38cca5e66cc80"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_rmse_by_date.png",
+      "source_sha256": "20e8407860d78c7275173112f7ee88117b5b964fb5c27ff426b474e1525cebec",
+      "shared_sha256": "20e8407860d78c7275173112f7ee88117b5b964fb5c27ff426b474e1525cebec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_rmse_by_horizon.png",
+      "source_sha256": "c98b930ce45c8140c0d81bd8209e0eae99e4e4da74c1bd729767416f1423cfc7",
+      "shared_sha256": "c98b930ce45c8140c0d81bd8209e0eae99e4e4da74c1bd729767416f1423cfc7"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_transformer_classes.csv",
+      "source_sha256": "83d8f416e0e276b2bc86638f2c8afdba636f4ebeeb58760f1beeb00f3b13e272",
+      "shared_sha256": "83d8f416e0e276b2bc86638f2c8afdba636f4ebeeb58760f1beeb00f3b13e272"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_transformer_confusion.csv",
+      "source_sha256": "4d9b62fc742e5c3c9be1c87a17412f1d80199d2868a8d6b0e556174efe93c749",
+      "shared_sha256": "4d9b62fc742e5c3c9be1c87a17412f1d80199d2868a8d6b0e556174efe93c749"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_transformer_diagnostics.png",
+      "source_sha256": "b87440be0baf1d19519f5cafc5ba0a1199c0ae8719ee9ec7bf59ebc35585f3c0",
+      "shared_sha256": "b87440be0baf1d19519f5cafc5ba0a1199c0ae8719ee9ec7bf59ebc35585f3c0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_44/evaluation_validation/validation_transformer_scatter.png",
+      "source_sha256": "d88ec48d47ae1f8863726346f4308bc1f44bdce5762fa9606f15d59529414f11",
+      "shared_sha256": "d88ec48d47ae1f8863726346f4308bc1f44bdce5762fa9606f15d59529414f11"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_comparison.csv",
+      "source_sha256": "61ae2dee4f2148875982b367f497730ecf7f7d57655e081bc80a7856cd5e5ac5",
+      "shared_sha256": "61ae2dee4f2148875982b367f497730ecf7f7d57655e081bc80a7856cd5e5ac5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_coverage.csv",
+      "source_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6",
+      "shared_sha256": "ad8adb01b1e4be91a27134e00a4f45ad5278b16056424c4b8eb7b77fc14a27b6"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_coverage.json",
+      "source_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95",
+      "shared_sha256": "8efc01f6a97bc168a05d04c73baeb01c46473fd7e2320f90c3b19f773c313d95"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_interval.json",
+      "source_sha256": "f74e09dee10be12128da0a33c98e63983955ee1ff68a62548ad78e8515280532",
+      "shared_sha256": "f74e09dee10be12128da0a33c98e63983955ee1ff68a62548ad78e8515280532"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0",
+      "shared_sha256": "cbed87c79835ba2c470b68fc56a2344c295c56719080cf02753c7392a5420dd0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001",
+      "shared_sha256": "04f2e5d3028e6877245f5c7ab4db04164cd212a831fcc319a280871f0a0db001"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b",
+      "shared_sha256": "8e6c5990345a4d1f50ddc7ba653e02d95337240931a07eab08f36e7646b1d21b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5",
+      "shared_sha256": "6edb78f02140a6106491679131152b3a379b5335c2be97b7cb262134c7106bc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5",
+      "shared_sha256": "6267bd56f6f1617a4cee6b59ea2875d961a28e50c39001cadf2e143fa5ce62f5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc",
+      "shared_sha256": "476f6eb34c85fddf10829e44cf0c5e325a088e71084f1f663413103c26b6d9dc"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e",
+      "shared_sha256": "6cc675b3284d8d309d496927b5a304e8fd4e1d66cc904924b6d7a6a749f7e54e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da",
+      "shared_sha256": "140fdbfa953eaa9a9fee41b55c928689b885f76633abcf24752e8368ece2a3da"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_per_date.csv",
+      "source_sha256": "16064020b14cb76d9118d6515e6081b3c79075d437682e96c1dc1d998eed92bc",
+      "shared_sha256": "16064020b14cb76d9118d6515e6081b3c79075d437682e96c1dc1d998eed92bc"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "ff123ce8a9404ca1ac716c3c48e729f6a787a474c17a2df95bc79a27174c0cf9",
+      "shared_sha256": "ff123ce8a9404ca1ac716c3c48e729f6a787a474c17a2df95bc79a27174c0cf9"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "c4b4527ab9874e6f1cfd4525b3c1880a67bb248a435a824de702b8015cf3de95",
+      "shared_sha256": "c4b4527ab9874e6f1cfd4525b3c1880a67bb248a435a824de702b8015cf3de95"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "56f2d84b356bfd9b970e0d23a36f6a4b60d6ba05f51c04d4346be4a2e41373a2",
+      "shared_sha256": "56f2d84b356bfd9b970e0d23a36f6a4b60d6ba05f51c04d4346be4a2e41373a2"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "2c5a6b77113780cb6be6c047957505bf9ef8f9f5e54777e5b10d29dc94bc5583",
+      "shared_sha256": "2c5a6b77113780cb6be6c047957505bf9ef8f9f5e54777e5b10d29dc94bc5583"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "e5254255fab8fd21a6de17bcd6de90a1ec6767271ad8c5c2101dabb5e53f1dae",
+      "shared_sha256": "e5254255fab8fd21a6de17bcd6de90a1ec6767271ad8c5c2101dabb5e53f1dae"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "c216acf13f006878078e87d0ad96f6082df60446bac0d817215da36f677e45fc",
+      "shared_sha256": "c216acf13f006878078e87d0ad96f6082df60446bac0d817215da36f677e45fc"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "deaa28c65017534942bb2f7c722511c91490ed2298b9531a71984712a627d8d0",
+      "shared_sha256": "deaa28c65017534942bb2f7c722511c91490ed2298b9531a71984712a627d8d0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_comparison.csv",
+      "source_sha256": "3fce948df3af76f8cca8a0f20d577b08c92381ce06dc990acea5944e24f40899",
+      "shared_sha256": "3fce948df3af76f8cca8a0f20d577b08c92381ce06dc990acea5944e24f40899"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_coverage.csv",
+      "source_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5",
+      "shared_sha256": "91778cfadbe0f000d31a4f8f5acd9b8fdc0e3740e690fbca7ba7acbee7b2bcc5"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_coverage.json",
+      "source_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b",
+      "shared_sha256": "f40ed6e5c44a6c773e98ec9be0ad696aa2eed3f867037f6f94f292fbade5c76b"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_interval.json",
+      "source_sha256": "4b967865f81ad2645091f7216bacdbda1e08e6cc36957bbebcf5ccae8035ede0",
+      "shared_sha256": "4b967865f81ad2645091f7216bacdbda1e08e6cc36957bbebcf5ccae8035ede0"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_linear_classes.csv",
+      "source_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e",
+      "shared_sha256": "64065088ac3196639e9b3e1f293794380989524debad5c8e79fb306fb89dbc8e"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_linear_confusion.csv",
+      "source_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec",
+      "shared_sha256": "7f2d6a4a9a4639bd63b654bf67dc3b979081d71073c30638f66c09dba4780eec"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_linear_diagnostics.png",
+      "source_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00",
+      "shared_sha256": "de5f56fe7af79066905be600a1206477ef55f4a673083eff50b3ea3a03243d00"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_linear_scatter.png",
+      "source_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225",
+      "shared_sha256": "7ea348fa849abd5fbef26fe831ac1b7a123d7b415e6d0b0aa0f976f6fc0c9225"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_persistence_classes.csv",
+      "source_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c",
+      "shared_sha256": "f243eaacc55424c9744e5d2eb497d745535169b488130f6f938912a1c4defe1c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_persistence_confusion.csv",
+      "source_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c",
+      "shared_sha256": "337e00af3093fc3e5d4103183f10c852669258d1aed77744c66affa67a4c4c9c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_persistence_diagnostics.png",
+      "source_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26",
+      "shared_sha256": "833844079a4d51a10e79a6c9df63f0c4380fc13a0e1444873d61143c47363c26"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_persistence_scatter.png",
+      "source_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c",
+      "shared_sha256": "a109262e8b66885be54ff1d4303335849c38529e3afbf1d29937d5a9c31d2c6c"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_per_date.csv",
+      "source_sha256": "91b54f70d8642a2410465e2d71539208da5709122f8c464801a6eb7db14fc204",
+      "shared_sha256": "91b54f70d8642a2410465e2d71539208da5709122f8c464801a6eb7db14fc204"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_per_horizon.csv",
+      "source_sha256": "ba7afe8c1ca237a449a3e142bf9d4f7b37defbc5aabe1dab60557baebfced415",
+      "shared_sha256": "ba7afe8c1ca237a449a3e142bf9d4f7b37defbc5aabe1dab60557baebfced415"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_rmse_by_date.png",
+      "source_sha256": "e1f2adbd4c49230c6283bf24f1cd74e49c317086f74d596dae8da20849461370",
+      "shared_sha256": "e1f2adbd4c49230c6283bf24f1cd74e49c317086f74d596dae8da20849461370"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_rmse_by_horizon.png",
+      "source_sha256": "a90df5f5c14372ff12ec99aae3f6ed8e91b8e9e2593edb5969f4b968dea47a80",
+      "shared_sha256": "a90df5f5c14372ff12ec99aae3f6ed8e91b8e9e2593edb5969f4b968dea47a80"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_transformer_classes.csv",
+      "source_sha256": "a7731d2484cfbf17b9608634a63675387dd2b7f123e9e935d0415df6c3a3d506",
+      "shared_sha256": "a7731d2484cfbf17b9608634a63675387dd2b7f123e9e935d0415df6c3a3d506"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_transformer_confusion.csv",
+      "source_sha256": "a7972a0cc25542b4f4c3504908795ab03a72fb41bfee208d9c219804cda129ba",
+      "shared_sha256": "a7972a0cc25542b4f4c3504908795ab03a72fb41bfee208d9c219804cda129ba"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_transformer_diagnostics.png",
+      "source_sha256": "967b74ffb2b0878b9f6abf3361742d7477f6115b093c9f6541f3f43f85ece2f8",
+      "shared_sha256": "967b74ffb2b0878b9f6abf3361742d7477f6115b093c9f6541f3f43f85ece2f8"
+    },
+    {
+      "path": "Research/runs/model_comparison/five_seed_2026-11-18/seed_43/evaluation_validation/validation_transformer_scatter.png",
+      "source_sha256": "529dd95a6ece0f3b5503e4508f56071e4cc299df1bca73e4e9864511155a365d",
+      "shared_sha256": "529dd95a6ece0f3b5503e4508f56071e4cc299df1bca73e4e9864511155a365d"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/history.csv",
+      "source_sha256": "cff8b4c5ba1ab3c444bb883792c12404f28513aa0a620b978e0e170d9177dc72",
+      "shared_sha256": "cff8b4c5ba1ab3c444bb883792c12404f28513aa0a620b978e0e170d9177dc72"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/run.json",
+      "source_sha256": "dde78e0757d9aa31f2707422dcaaa86f40fa8cbb0a0b5e1359504321dc161b3d",
+      "shared_sha256": "7c2cf59e98745a4ea918971c069af74da3e4eda8dbb870c46648498cf6a71338"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/training.png",
+      "source_sha256": "4d003d2bd6147ab2110049f435c8f4abbcb1dff32373e385a89cb55861c8f496",
+      "shared_sha256": "4d003d2bd6147ab2110049f435c8f4abbcb1dff32373e385a89cb55861c8f496"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/history.csv",
+      "source_sha256": "f68a1228ac259c13ee6d3e7428de60d86523abb50fb6555a13748c069370a140",
+      "shared_sha256": "f68a1228ac259c13ee6d3e7428de60d86523abb50fb6555a13748c069370a140"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/run.json",
+      "source_sha256": "68f61ad87dcf9d4f498db9600919e93ff418c732dc0cece52cf2bf2e609b21b6",
+      "shared_sha256": "cfa1523a0ec7d07838ccda31abc789958d4d47ddf40726c35f6c9dc94924621f"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/training.png",
+      "source_sha256": "9b33c8e198d255c095a1bf1fa142169ab32296579600fa82ef443103d3aba7c5",
+      "shared_sha256": "9b33c8e198d255c095a1bf1fa142169ab32296579600fa82ef443103d3aba7c5"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_comparison.csv",
+      "source_sha256": "b6200ad85576b9a33755867dcc98af27c2ca1adf5b8272556319e687f6ccf7da",
+      "shared_sha256": "b6200ad85576b9a33755867dcc98af27c2ca1adf5b8272556319e687f6ccf7da"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_coverage.csv",
+      "source_sha256": "6c5231b98a7c7256447a300095048f198a3c9f719c47ee702021e2255e39332a",
+      "shared_sha256": "6c5231b98a7c7256447a300095048f198a3c9f719c47ee702021e2255e39332a"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_coverage.json",
+      "source_sha256": "119707437c9a0adf7bba128ea676651c1e2372c87ebb4cd3debe83c5d2f17779",
+      "shared_sha256": "119707437c9a0adf7bba128ea676651c1e2372c87ebb4cd3debe83c5d2f17779"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_interval.json",
+      "source_sha256": "76e1b6f1bad0b5022850a34b954fdae713b565b76662bc84a5e22173ff334ebd",
+      "shared_sha256": "76e1b6f1bad0b5022850a34b954fdae713b565b76662bc84a5e22173ff334ebd"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "e6663d3002c81f1e767eb2cd63bde8673b8212810aacb14e65394a1b859d206b",
+      "shared_sha256": "e6663d3002c81f1e767eb2cd63bde8673b8212810aacb14e65394a1b859d206b"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "bfc8c78b87bfe568f913e67d0efd483747aabc520e838d5efdcb62d1aa7115b3",
+      "shared_sha256": "bfc8c78b87bfe568f913e67d0efd483747aabc520e838d5efdcb62d1aa7115b3"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "3a0c41716a807da2ec6aa602f2449b6576d25ec8a73546cf32c3d836b50a8238",
+      "shared_sha256": "3a0c41716a807da2ec6aa602f2449b6576d25ec8a73546cf32c3d836b50a8238"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "84c1006ce02b57b087dcc6f1f3e4bab8f60a3a6b272167b4f643c901a6603e13",
+      "shared_sha256": "84c1006ce02b57b087dcc6f1f3e4bab8f60a3a6b272167b4f643c901a6603e13"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6eabf63b16c0cbce88158c50f4a721787e1d6a5b01d7010444ebe27b17cec17a",
+      "shared_sha256": "6eabf63b16c0cbce88158c50f4a721787e1d6a5b01d7010444ebe27b17cec17a"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "a7b3d0f6a941cf5ca08d57005e27e9750bc7c2fc19814b41c7176849ae2b1896",
+      "shared_sha256": "a7b3d0f6a941cf5ca08d57005e27e9750bc7c2fc19814b41c7176849ae2b1896"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_per_date.csv",
+      "source_sha256": "c7206ada3020f83d519fcfcb9684d6e1ec5cc53d07ad6d29617aab4941a5d756",
+      "shared_sha256": "c7206ada3020f83d519fcfcb9684d6e1ec5cc53d07ad6d29617aab4941a5d756"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "b991117709f12ed411d24839ec660a96b914832ea3d5b3d87d3c1341d37b13cb",
+      "shared_sha256": "b991117709f12ed411d24839ec660a96b914832ea3d5b3d87d3c1341d37b13cb"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "ae8fb303eb98e877e261b496d9fd221037fe405c05351cf466e437fd275f33e3",
+      "shared_sha256": "ae8fb303eb98e877e261b496d9fd221037fe405c05351cf466e437fd275f33e3"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "c0874fbe60b959c3cbb18227b85d70c2840218aaad0f0e5784cc8ce54033e5ac",
+      "shared_sha256": "c0874fbe60b959c3cbb18227b85d70c2840218aaad0f0e5784cc8ce54033e5ac"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "81ea747b40f3b0310d5aeb4e39dec3628d323f81f8702aeb08550bed180906d2",
+      "shared_sha256": "81ea747b40f3b0310d5aeb4e39dec3628d323f81f8702aeb08550bed180906d2"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "7f7f1f8a096fdeae6b3c4e5700366aff33fbe6f6004a44a2aec955b03a65a158",
+      "shared_sha256": "7f7f1f8a096fdeae6b3c4e5700366aff33fbe6f6004a44a2aec955b03a65a158"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "224a749f954df09dcc261d7c48cf555ac3eeaaa690be19a6bf5e7e1d1885aa76",
+      "shared_sha256": "224a749f954df09dcc261d7c48cf555ac3eeaaa690be19a6bf5e7e1d1885aa76"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/smoke/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "75df669295f8493893b042e13569fbd27d20e6740b8ab3527d30284a70ac2e47",
+      "shared_sha256": "75df669295f8493893b042e13569fbd27d20e6740b8ab3527d30284a70ac2e47"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_comparison.csv",
+      "source_sha256": "9095a7cc76ed0111483730eea025d9ca4ecde9aa93d63ff8488994bd543c15b0",
+      "shared_sha256": "9095a7cc76ed0111483730eea025d9ca4ecde9aa93d63ff8488994bd543c15b0"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_coverage.csv",
+      "source_sha256": "6c5231b98a7c7256447a300095048f198a3c9f719c47ee702021e2255e39332a",
+      "shared_sha256": "6c5231b98a7c7256447a300095048f198a3c9f719c47ee702021e2255e39332a"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_coverage.json",
+      "source_sha256": "119707437c9a0adf7bba128ea676651c1e2372c87ebb4cd3debe83c5d2f17779",
+      "shared_sha256": "119707437c9a0adf7bba128ea676651c1e2372c87ebb4cd3debe83c5d2f17779"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_interval.json",
+      "source_sha256": "efbb7dded1d0c44e245f0749b77b2520c0771d7568c73f3b4deb6c7dad33f0b6",
+      "shared_sha256": "efbb7dded1d0c44e245f0749b77b2520c0771d7568c73f3b4deb6c7dad33f0b6"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_linear_classes.csv",
+      "source_sha256": "e6663d3002c81f1e767eb2cd63bde8673b8212810aacb14e65394a1b859d206b",
+      "shared_sha256": "e6663d3002c81f1e767eb2cd63bde8673b8212810aacb14e65394a1b859d206b"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_linear_confusion.csv",
+      "source_sha256": "bfc8c78b87bfe568f913e67d0efd483747aabc520e838d5efdcb62d1aa7115b3",
+      "shared_sha256": "bfc8c78b87bfe568f913e67d0efd483747aabc520e838d5efdcb62d1aa7115b3"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_linear_diagnostics.png",
+      "source_sha256": "3a0c41716a807da2ec6aa602f2449b6576d25ec8a73546cf32c3d836b50a8238",
+      "shared_sha256": "3a0c41716a807da2ec6aa602f2449b6576d25ec8a73546cf32c3d836b50a8238"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_linear_scatter.png",
+      "source_sha256": "84c1006ce02b57b087dcc6f1f3e4bab8f60a3a6b272167b4f643c901a6603e13",
+      "shared_sha256": "84c1006ce02b57b087dcc6f1f3e4bab8f60a3a6b272167b4f643c901a6603e13"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_persistence_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_persistence_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_persistence_diagnostics.png",
+      "source_sha256": "6eabf63b16c0cbce88158c50f4a721787e1d6a5b01d7010444ebe27b17cec17a",
+      "shared_sha256": "6eabf63b16c0cbce88158c50f4a721787e1d6a5b01d7010444ebe27b17cec17a"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_persistence_scatter.png",
+      "source_sha256": "a7b3d0f6a941cf5ca08d57005e27e9750bc7c2fc19814b41c7176849ae2b1896",
+      "shared_sha256": "a7b3d0f6a941cf5ca08d57005e27e9750bc7c2fc19814b41c7176849ae2b1896"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_per_date.csv",
+      "source_sha256": "b0d605a01c0dbfbb0b743bed7dacc95aa8efc8e5e0f347bf9d0128c483a4ec97",
+      "shared_sha256": "b0d605a01c0dbfbb0b743bed7dacc95aa8efc8e5e0f347bf9d0128c483a4ec97"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_per_horizon.csv",
+      "source_sha256": "f73ae23668632f748f645765f8cbb4caad06e7e118d66f62ea4c6a83c3f8248f",
+      "shared_sha256": "f73ae23668632f748f645765f8cbb4caad06e7e118d66f62ea4c6a83c3f8248f"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_rmse_by_date.png",
+      "source_sha256": "2e866785117fe0fdfac024089e193ebb924a5de749c3ae1b8e304d0d7e3af85e",
+      "shared_sha256": "2e866785117fe0fdfac024089e193ebb924a5de749c3ae1b8e304d0d7e3af85e"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_rmse_by_horizon.png",
+      "source_sha256": "f07879f75feb93c0b82957a4d53d0ca435d92f4a9f6b5ff9c635bb6d94f4f58e",
+      "shared_sha256": "f07879f75feb93c0b82957a4d53d0ca435d92f4a9f6b5ff9c635bb6d94f4f58e"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_transformer_classes.csv",
+      "source_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc",
+      "shared_sha256": "7ea5be16a8108aecfd0eecab3551d26cd3109261454cf05b14358b181f8c18bc"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_transformer_confusion.csv",
+      "source_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5",
+      "shared_sha256": "a45d35f1dfc45bced0e7fc185b1a800d341894510d95aad9c8542a7f45f05cd5"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_transformer_diagnostics.png",
+      "source_sha256": "8d63e2c98140f205c2d3c724194aaab0bf669c5846011b7c0ba9f3eac0b841fc",
+      "shared_sha256": "8d63e2c98140f205c2d3c724194aaab0bf669c5846011b7c0ba9f3eac0b841fc"
+    },
+    {
+      "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_transformer_scatter.png",
+      "source_sha256": "49519890c4f8f79457a1c22fa1125af989bb5915671528c35abea9883be54c93",
+      "shared_sha256": "49519890c4f8f79457a1c22fa1125af989bb5915671528c35abea9883be54c93"
+    }
+  ],
+  "excluded": [
+    "raw UAV rasters",
+    "aligned caches",
+    "sample arrays",
+    "trained research checkpoints",
+    "per-pixel prediction CSVs",
+    "local path migration marker",
+    "credentials",
+    "virtual environment"
+  ],
+  "note": "The original Research files were only read. The sharing copy redacts machine paths and adapts README setup. Upstream public history is preserved.",
+  "verification": {
+    "sharing_tests_passed": 24,
+    "sharing_tests_skipped": 1,
+    "skip_reason": "Historical research checkpoint intentionally excluded",
+    "existing_deprecation_warnings": 126,
+    "original_files_unchanged": true,
+    "public_content_scan": "passed"
+  },
+  "github_repository": "https://github.com/carlog1566/strawberry-ndvi-research"
+}

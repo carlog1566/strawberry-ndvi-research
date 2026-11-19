@@ -1,0 +1,12 @@
+{
+  "d_model": 8,
+  "num_heads": 2,
+  "num_layers": 1,
+  "dim_feedforward": 16,
+  "dropout": 0.0,
+  "epochs": 2,
+  "patience": 2,
+  "samples_per_split": 30,
+  "batch_size": 16,
+  "tile_size": 8
+}

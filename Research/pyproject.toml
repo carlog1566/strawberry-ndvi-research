@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uav-ndvi"
+version = "0.2.0"
+description = "Season-aware UAV NDVI forecasting research"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[project.scripts]
+uav-ndvi = "uav_ndvi.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+uav_ndvi = ["defaults.json", "licenses/*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

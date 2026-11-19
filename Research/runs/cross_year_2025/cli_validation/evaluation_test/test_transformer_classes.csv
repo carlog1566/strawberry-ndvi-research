@@ -1,0 +1,7 @@
+,precision,recall,f1-score,support
+unfavorable,0.0,0.0,0.0,0.0
+marginal,1.0,1.0,1.0,30.0
+healthy,0.0,0.0,0.0,0.0
+accuracy,1.0,1.0,1.0,1.0
+macro avg,0.3333333333333333,0.3333333333333333,0.3333333333333333,30.0
+weighted avg,1.0,1.0,1.0,30.0

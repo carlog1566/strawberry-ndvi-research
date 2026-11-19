@@ -1,0 +1,46 @@
+{
+  "config": {
+    "seed": 46,
+    "threshold": 0.2,
+    "tile_size": 256,
+    "min_history": 2,
+    "max_history": 32,
+    "max_history_days": 365,
+    "max_horizon_days": 120,
+    "samples_per_split": 20000,
+    "split_axis": "row",
+    "buffer_pixels": 0,
+    "batch_size": 256,
+    "num_workers": 0,
+    "epochs": 100,
+    "patience": 12,
+    "learning_rate": 0.0003,
+    "d_model": 64,
+    "num_layers": 4,
+    "num_heads": 8,
+    "dim_feedforward": 256,
+    "dropout": 0.1,
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "extra_features": [],
+    "experiment": "spatial_generalization",
+    "train_years": [
+      2022,
+      2023,
+      2024
+    ],
+    "test_year": 2025,
+    "validation_dates": [],
+    "require_seasons": true,
+    "grid_extent": "union",
+    "loss": "mse",
+    "residual_prediction": true,
+    "excluded_dates": []
+  },
+  "examples": ".\\artifacts\\spatial_generalization\\v1",
+  "device": "cpu",
+  "best_validation_rmse": 0.08742689881876653
+}

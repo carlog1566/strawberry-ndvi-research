@@ -1,0 +1,24 @@
+{
+  "n_pairs": 5,
+  "primary_metric": "rmse",
+  "alpha": 0.05,
+  "difference_definition": "transformer RMSE minus linear RMSE; negative favors transformer",
+  "transformer_mean": 0.09080211793375852,
+  "transformer_std": 0.0008777477985449017,
+  "linear_mean": 0.09076757315607191,
+  "linear_std": 0.0,
+  "mean_difference": 3.454477768661257e-05,
+  "difference_std": 0.0008777477985449015,
+  "linear_scores_identical": true,
+  "alternative": "two-sided",
+  "df": 4,
+  "inference_scope": "Training-seed variability conditional on this fixed training, validation and test dataset. Not uncertainty across new fields, years or independent datasets. Assumes independent seed realizations and approximately normal run-level differences. The test set was evaluated previously; treat this as an exploratory comparison.",
+  "test_status": "computed",
+  "t_statistic": 0.08800303606905846,
+  "p_value": 0.9341039979277965,
+  "confidence_interval": [
+    -0.0010553230632692019,
+    0.0011244126186424272
+  ],
+  "reject_equal_means": false
+}
