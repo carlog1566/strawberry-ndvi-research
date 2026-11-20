@@ -1,0 +1,21 @@
+{
+  "status": "available",
+  "seed": 46,
+  "selected_epoch": 40,
+  "samples_analyzed": 20000,
+  "full_test_samples": 20000,
+  "layers": 4,
+  "heads": 8,
+  "observed_historical_dates": 38,
+  "max_instrumented_prediction_abs_error": 5.960464477539063e-08,
+  "max_prediction_vs_saved_csv_abs_error": 5.960464477539063e-08,
+  "max_observer_vs_original_attention_output_abs_error": 8.791685104370117e-07,
+  "model_state_sha256": "ef7a14613d0663347c2678a6fa2cafa07e9f1f1b7399778e0bec7d19d5125b38",
+  "checkpoint_sha256": "af2ffb4d18f59c136a6708070f5d6398edb17cb6cbb88dafa6cfeb8c1709c019",
+  "model_state_unchanged": true,
+  "tolerance": {
+    "atol": 2e-06,
+    "rtol": 1e-05
+  },
+  "selection": "All saved test samples unless explicit attention-limit; illustrative examples are first saved samples at the latest target date in each season/block."
+}

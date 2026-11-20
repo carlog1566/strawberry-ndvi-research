@@ -1,0 +1,42 @@
+{
+  "runs": [
+    ".\\runs\\spatial_generalization\\retrain_2026-11-18",
+    ".\\runs\\model_comparison\\five_seed_2026-11-18\\seed_43",
+    ".\\runs\\model_comparison\\five_seed_2026-11-18\\seed_44",
+    ".\\runs\\model_comparison\\five_seed_2026-11-18\\seed_45",
+    ".\\runs\\model_comparison\\five_seed_2026-11-18\\seed_46"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "cutoffs": [
+    0.4,
+    0.6
+  ],
+  "models": [
+    "linear",
+    "transformer"
+  ],
+  "score": "raw saved continuous point NDVI",
+  "positive": "actual >= cutoff",
+  "average_precision": "sklearn average_precision_score; not trapezoidal PR area",
+  "cohort": "Same saved spatial test examples; no new data split or preprocessing",
+  "attention_limit": null,
+  "attention_batch_size": 128,
+  "cpu_threads": 4,
+  "software": {
+    "python": "3.13.0",
+    "torch": "2.15.0+cpu",
+    "sklearn": "1.9.1"
+  },
+  "attention_method": "Observational Q/K/V hooks plus independent equal-weight attention copies; no model forward replacement or trained-parameter changes",
+  "interpretations": [
+    "Binary ranking, not multiclass AUC or calibrated probability evaluation",
+    "Seed SD conditional on fixed test data; no independent-pixel inference",
+    "Historical self-attention is descriptive and not causal attribution"
+  ]
+}

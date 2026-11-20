@@ -1,0 +1,608 @@
+<!doctype html><html><head><meta charset="utf-8"><title>NDVI post-hoc analysis</title>
+<style>body{font:16px system-ui;max-width:1200px;margin:35px auto;padding:0 20px;line-height:1.5}table{border-collapse:collapse;font-size:13px}th,td{border:1px solid #ccc;padding:6px}img{max-width:100%}code{background:#eee}h2{margin-top:35px}</style></head><body>
+<h1>Five-seed NDVI post-hoc analysis</h1>
+<p>Existing predictions, checkpoints and saved test samples only. No retraining. Original experimental outputs and model/preprocessing source are preserved.</p>
+<h2>Definitions</h2><ul><li>Positive targets are actual NDVI &ge; 0.4 (marginal-or-healthy) or &ge; 0.6 (healthy).</li><li>Scores are raw continuous point predictions. No clipping, hard prediction thresholding or probability calibration was applied.</li><li>ROC-AUC measures ranking; AP uses scikit-learn average precision, not trapezoidal PR area.</li><li>The PR no-skill reference is positive prevalence. A model can rank healthy targets even if none of its scores reach 0.6.</li></ul>
+<h2>Seed summary</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>cutoff</th>
+      <th>positive_definition</th>
+      <th>model</th>
+      <th>requested_seeds</th>
+      <th>available_seeds</th>
+      <th>roc_auc_mean</th>
+      <th>roc_auc_std</th>
+      <th>average_precision_mean</th>
+      <th>average_precision_std</th>
+      <th>n</th>
+      <th>positives</th>
+      <th>negatives</th>
+      <th>prevalence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>linear</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0.678647</td>
+      <td>0.000000</td>
+      <td>0.318651</td>
+      <td>0.000000</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+    </tr>
+    <tr>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>transformer</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0.677448</td>
+      <td>0.018193</td>
+      <td>0.326986</td>
+      <td>0.013888</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+    </tr>
+    <tr>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>linear</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0.782233</td>
+      <td>0.000000</td>
+      <td>0.012884</td>
+      <td>0.000000</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+    </tr>
+    <tr>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>transformer</td>
+      <td>5</td>
+      <td>5</td>
+      <td>0.755555</td>
+      <td>0.027321</td>
+      <td>0.013638</td>
+      <td>0.002039</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+    </tr>
+  </tbody>
+</table>
+<p>SD is sample SD across the available seeds on the same fixed test set. Linear regression is deterministic. These are not independent fields/datasets; no additional significance tests or independent-pixel confidence intervals were performed.</p>
+<h2>Per-seed results</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>seed</th>
+      <th>model</th>
+      <th>cutoff</th>
+      <th>positive_definition</th>
+      <th>status</th>
+      <th>n</th>
+      <th>positives</th>
+      <th>negatives</th>
+      <th>prevalence</th>
+      <th>roc_auc</th>
+      <th>average_precision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>42</td>
+      <td>linear</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.678647</td>
+      <td>0.318651</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>transformer</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.698296</td>
+      <td>0.342419</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>linear</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.782233</td>
+      <td>0.012884</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>transformer</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.790503</td>
+      <td>0.016024</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>linear</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.678647</td>
+      <td>0.318651</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>transformer</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.653068</td>
+      <td>0.312508</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>linear</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.782233</td>
+      <td>0.012884</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>transformer</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.715128</td>
+      <td>0.011326</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>linear</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.678647</td>
+      <td>0.318651</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>transformer</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.674188</td>
+      <td>0.331082</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>linear</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.782233</td>
+      <td>0.012884</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>transformer</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.766244</td>
+      <td>0.015341</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>linear</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.678647</td>
+      <td>0.318651</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>transformer</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.669417</td>
+      <td>0.312333</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>linear</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.782233</td>
+      <td>0.012884</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>transformer</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.754016</td>
+      <td>0.013497</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>linear</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.678647</td>
+      <td>0.318651</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>transformer</td>
+      <td>0.400000</td>
+      <td>actual NDVI &gt;= 0.4</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>4408</td>
+      <td>15592</td>
+      <td>0.220400</td>
+      <td>0.692271</td>
+      <td>0.336590</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>linear</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.782233</td>
+      <td>0.012884</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>transformer</td>
+      <td>0.600000</td>
+      <td>actual NDVI &gt;= 0.6</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>107</td>
+      <td>19893</td>
+      <td>0.005350</td>
+      <td>0.751885</td>
+      <td>0.012004</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Historical attention method and limitations</h2><p>Temporary non-returning hooks observe each historical self-attention module's actual Q/K/V and masks. Separate copies with identical weights recompute per-head softmax attention in evaluation mode. The original forward methods, parameters and need_weights=False calls remain unchanged. Hooks can change fused-kernel dispatch; ordinary, instrumented and saved predictions are checked with documented float32 tolerances.</p>
+<p>Only valid historical query/key positions are aggregated. Received mass is averaged over valid query tokens. Uniform-relative attention divides by 1 / valid-history-length within each example before averaging, reducing the mechanical effect of different history lengths. Acquisition support counts are saved. Dates never used as valid history are unavailable, not zero-importance dates. Pairwise means are conditional on each pair co-occurring and need not sum to one across a global date row.</p>
+<p>This is historical-to-historical self-attention, not target-to-history cross-attention. It is not a causal explanation or a complete measure of prediction importance: value projections, feedforward blocks, residuals, masked pooling, the future branch and persistence anchor also affect output. No intervention/ablation or new performance claim was made.</p>
+<p>Illustrations are selected deterministically by dates: the first saved test example at the latest target date in each represented season/block. Full per-head arrays are in NPZ files; the illustrative plots average heads within each layer.</p>
+<h2>Dates with largest mean uniform-relative received attention</h2>
+<p>Descriptive conditional ranking, not proof of most influential flights.</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>acquisition_id</th>
+      <th>date</th>
+      <th>season</th>
+      <th>mean_received_attention</th>
+      <th>received_attention_seed_std</th>
+      <th>mean_uniform_relative_attention</th>
+      <th>uniform_relative_seed_std</th>
+      <th>available_seeds</th>
+      <th>min_valid_key_samples</th>
+      <th>max_valid_key_samples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>25</td>
+      <td>2024-08-08</td>
+      <td>provisional_2024_feb_aug</td>
+      <td>0.698630</td>
+      <td>0.040857</td>
+      <td>3.241708</td>
+      <td>0.193611</td>
+      <td>5</td>
+      <td>572</td>
+      <td>572</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>2024-06-27</td>
+      <td>provisional_2024_feb_aug</td>
+      <td>0.588028</td>
+      <td>0.039488</td>
+      <td>2.551031</td>
+      <td>0.180156</td>
+      <td>5</td>
+      <td>908</td>
+      <td>908</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>2024-05-30</td>
+      <td>provisional_2024_feb_aug</td>
+      <td>0.534959</td>
+      <td>0.016531</td>
+      <td>2.203796</td>
+      <td>0.070455</td>
+      <td>5</td>
+      <td>2076</td>
+      <td>2076</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>2022-08-05</td>
+      <td>provisional_2022_apr_aug</td>
+      <td>0.600064</td>
+      <td>0.047792</td>
+      <td>2.040091</td>
+      <td>0.174781</td>
+      <td>5</td>
+      <td>281</td>
+      <td>281</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>2024-11-01</td>
+      <td>provisional_2024_sep_dec</td>
+      <td>0.595477</td>
+      <td>0.048501</td>
+      <td>2.009982</td>
+      <td>0.181859</td>
+      <td>5</td>
+      <td>364</td>
+      <td>364</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>2024-11-15</td>
+      <td>provisional_2024_sep_dec</td>
+      <td>0.543227</td>
+      <td>0.028591</td>
+      <td>1.937629</td>
+      <td>0.118868</td>
+      <td>5</td>
+      <td>26</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>2024-11-08</td>
+      <td>provisional_2024_sep_dec</td>
+      <td>0.557676</td>
+      <td>0.052644</td>
+      <td>1.937220</td>
+      <td>0.201334</td>
+      <td>5</td>
+      <td>92</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>2024-10-25</td>
+      <td>provisional_2024_sep_dec</td>
+      <td>0.529488</td>
+      <td>0.035816</td>
+      <td>1.803796</td>
+      <td>0.132401</td>
+      <td>5</td>
+      <td>608</td>
+      <td>608</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>2025-04-01</td>
+      <td>provisional_2025_feb_apr</td>
+      <td>0.832118</td>
+      <td>0.020661</td>
+      <td>1.738016</td>
+      <td>0.044200</td>
+      <td>5</td>
+      <td>52</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>2024-05-27</td>
+      <td>provisional_2024_feb_aug</td>
+      <td>0.478487</td>
+      <td>0.017372</td>
+      <td>1.735273</td>
+      <td>0.069495</td>
+      <td>5</td>
+      <td>4417</td>
+      <td>4417</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Availability and prediction-agreement checks</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>seed</th>
+      <th>ranking_status</th>
+      <th>attention_status</th>
+      <th>attention_samples</th>
+      <th>max_forward_abs_error</th>
+      <th>max_saved_prediction_abs_error</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>42</td>
+      <td>available</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>1.490116e-07</td>
+      <td>5.960464e-08</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>available</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>1.192093e-07</td>
+      <td>5.960464e-08</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>available</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>1.192093e-07</td>
+      <td>5.960464e-08</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>available</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>1.490116e-07</td>
+      <td>5.960464e-08</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>available</td>
+      <td>available</td>
+      <td>20000</td>
+      <td>5.960464e-08</td>
+      <td>5.960464e-08</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Protected input audit</h2><pre>{
+  &quot;unchanged&quot;: true,
+  &quot;changed_files&quot;: [],
+  &quot;protected_files&quot;: 771,
+  &quot;hash_policy&quot;: &quot;SHA256 for files &lt;=2 MB and all checkpoints/joblib; size+mtime_ns for every protected file&quot;,
+  &quot;no_training&quot;: true,
+  &quot;existing_results_overwritten&quot;: false,
+  &quot;existing_model_source_modified&quot;: false,
+  &quot;hooks_removed_after_use&quot;: true
+}</pre>
+<h2>roc_pr_five_seed_summary.png</h2><img src="roc_pr_five_seed_summary.png" alt="roc_pr_five_seed_summary.png">
+<h2>ranking_metrics_seed_mean_sd.png</h2><img src="ranking_metrics_seed_mean_sd.png" alt="ranking_metrics_seed_mean_sd.png">
+<h2>healthy_precision_recall_zoom.png</h2><img src="healthy_precision_recall_zoom.png" alt="healthy_precision_recall_zoom.png">
+<h2>attention_five_seed_date_summary.png</h2><img src="attention_five_seed_date_summary.png" alt="attention_five_seed_date_summary.png">
+<h2>Per-seed attention figures</h2>
+<h3>seed_42</h3><img src="seed_42/attention/received_attention_by_date.png">
+<a href="seed_42/attention/example_3387_layer_means.png">Illustration: example_3387_layer_means.png</a><br>
+<a href="seed_42/attention/example_351_layer_means.png">Illustration: example_351_layer_means.png</a><br>
+<a href="seed_42/attention/example_8726_layer_means.png">Illustration: example_8726_layer_means.png</a><br>
+<a href="seed_42/attention/example_8810_layer_means.png">Illustration: example_8810_layer_means.png</a><br>
+<h3>seed_43</h3><img src="seed_43/attention/received_attention_by_date.png">
+<a href="seed_43/attention/example_3387_layer_means.png">Illustration: example_3387_layer_means.png</a><br>
+<a href="seed_43/attention/example_351_layer_means.png">Illustration: example_351_layer_means.png</a><br>
+<a href="seed_43/attention/example_8726_layer_means.png">Illustration: example_8726_layer_means.png</a><br>
+<a href="seed_43/attention/example_8810_layer_means.png">Illustration: example_8810_layer_means.png</a><br>
+<h3>seed_44</h3><img src="seed_44/attention/received_attention_by_date.png">
+<a href="seed_44/attention/example_3387_layer_means.png">Illustration: example_3387_layer_means.png</a><br>
+<a href="seed_44/attention/example_351_layer_means.png">Illustration: example_351_layer_means.png</a><br>
+<a href="seed_44/attention/example_8726_layer_means.png">Illustration: example_8726_layer_means.png</a><br>
+<a href="seed_44/attention/example_8810_layer_means.png">Illustration: example_8810_layer_means.png</a><br>
+<h3>seed_45</h3><img src="seed_45/attention/received_attention_by_date.png">
+<a href="seed_45/attention/example_3387_layer_means.png">Illustration: example_3387_layer_means.png</a><br>
+<a href="seed_45/attention/example_351_layer_means.png">Illustration: example_351_layer_means.png</a><br>
+<a href="seed_45/attention/example_8726_layer_means.png">Illustration: example_8726_layer_means.png</a><br>
+<a href="seed_45/attention/example_8810_layer_means.png">Illustration: example_8810_layer_means.png</a><br>
+<h3>seed_46</h3><img src="seed_46/attention/received_attention_by_date.png">
+<a href="seed_46/attention/example_3387_layer_means.png">Illustration: example_3387_layer_means.png</a><br>
+<a href="seed_46/attention/example_351_layer_means.png">Illustration: example_351_layer_means.png</a><br>
+<a href="seed_46/attention/example_8726_layer_means.png">Illustration: example_8726_layer_means.png</a><br>
+<a href="seed_46/attention/example_8810_layer_means.png">Illustration: example_8810_layer_means.png</a><br>
+<h2>Sources</h2><ul><li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score.html">scikit-learn AP definition</a></li><li><a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.MultiheadAttention.html">PyTorch per-head attention</a></li></ul></body></html>

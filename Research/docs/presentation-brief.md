@@ -4,6 +4,8 @@ Prepared November 19, 2026, from the source code, saved experiments and supplied
 
 This document is self-contained input for generating a presentation. Results distinguish software checks, synthetic experiments, historical real-data experiments and the current five-seed comparison.
 
+**Post-hoc addendum:** Binary ROC-AUC/Average Precision and descriptive historical-attention extraction were subsequently completed without retraining. Read [the new presentation summary](../analysis_results/five_seed_posthoc_2026-11-19/presentation_summary.txt), [metric means/seed SDs](../analysis_results/five_seed_posthoc_2026-11-19/ranking_metrics_summary.csv), and the new analysis figures. These supersede the earlier status that AUC and attention extraction were unfinished; no previous numerical experiment result was changed.
+
 ## Instructions for ChatGPT creating the presentation
 
 Use the verified facts below to create slides and speaker notes. Make the current five-seed real-data comparison the main result. Explain model inputs, spatial sampling, training and the paired test. Include classification weaknesses and unfinished proposal objectives. Do not invent AUC-ROC, attention analyses, agronomic labels, temporal-holdout results or evidence that the transformer is superior. Historical and synthetic results belong in background or an appendix. Use NDVI units for regression error, not “percentage accuracy.”
@@ -137,7 +139,7 @@ Information flow:
 
 This is a **dual-encoder fusion architecture**, not an encoder-decoder cross-attention network. Actual-day encoding is an adaptation documented in this repository. The inspected upstream positional code uses sequence-index positions; do not claim the actual-day implementation was inherited unchanged from that code.
 
-The model predicts NDVI/quantiles, not trained three-class health probabilities. Categories are assigned afterward. Attention weights have not yet been exported/analyzed to substantiate which flights matter most.
+The model predicts NDVI/quantiles, not trained three-class health probabilities. Categories are assigned afterward. Subsequent post-hoc work exported historical attention with prediction-agreement checks; this is descriptive evidence of token mixing, not proof of causal flight importance.
 
 ### Older standalone linear-regression workflow
 
@@ -387,8 +389,8 @@ The software stack includes Python 3.13, PyTorch, scikit-learn, NumPy, pandas, r
 1. **Resolve split wording with the professor.** PDF page 8 specifies the implemented spatial split but also calls ground truth a withheld acquisition date. Clarify whether the intended claim is unseen locations, unseen dates or both. Current evidence supports unseen locations only.
 2. **Address poor health-category detection.** Neither fitted model predicts healthy samples. OLS reproduces the majority category; marginal recall is also very low for the transformer. Include class counts, macro F1 and confusion matrices, not accuracy alone.
 3. **Discuss absolute fit.** Mean R² is approximately 0.09 for both models. Similar scores do not establish that either is useful for operational decisions. Inspect scatter, distribution and date/horizon plots.
-4. **Complete or explicitly defer attention/temporal analysis.** The proposal promises attention weights and understanding influential flights. The architecture's ability to attend does not demonstrate which temporal dependencies were learned. Extraction or a properly designed temporal sensitivity/ablation study remains work.
-5. **AUC-ROC is absent.** Define suitable scoring for the derived categories or agree to defer/revise that metric. Current regression outputs/quantiles are not a trained three-class probability distribution. Do not invent AUC scores.
+4. **Scope the completed attention analysis.** Historical per-head attention extraction, date summaries and heatmaps are now available for all five saved checkpoints. They describe attention among historical inputs; causal attribution, interventions and controlled temporal ablations remain future work.
+5. **Scope the completed ROC/AP analysis.** Two binary tasks now use actual NDVI >=0.4 and >=0.6 with continuous NDVI scores. Do not describe these as a calibrated three-class ROC or borrow the old RMSE p-value as evidence of significant AUC/AP differences.
 6. **Explain proposal-method changes.** Dataset years expanded beyond 2024–2025. The baseline uses engineered statistics/trends rather than the specified flattening/sums. Current outputs are unclipped. Describe actual-day encoding as the implemented adaptation rather than claiming unchanged inheritance.
 7. **Scope the statistical inference.** Only five seeds, one fixed split and deterministic OLS were used. Normality of seed-level differences is not established. These are not independent farms/datasets. p=0.934 does not prove equivalence, and prior test-set inspection makes the analysis exploratory.
 8. **Account for dependence and representativeness.** Neighboring pixels and repeated dates can be correlated. No spatial buffer is used. Unequal date/class coverage and the 20,000-example caps limit representativeness; geographic percentages are different from sample-count percentages.

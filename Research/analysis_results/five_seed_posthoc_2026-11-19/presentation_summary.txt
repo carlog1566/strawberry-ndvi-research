@@ -1,0 +1,22 @@
+FIVE-SEED POST-HOC RESULTS FOR PRESENTATION
+No retraining. Existing continuous point predictions and historical self-attention only.
+Positive target: actual NDVI >= 0.4 (marginal-or-healthy) or >= 0.6 (healthy).
+These are two binary rankings, not a three-class ROC or calibrated class probabilities.
+
+NDVI >= 0.4, linear: ROC-AUC 0.678647 +/- 0.000000; AP 0.318651 +/- 0.000000; prevalence 0.220400; 5/5 seeds.
+NDVI >= 0.4, transformer: ROC-AUC 0.677448 +/- 0.018193; AP 0.326986 +/- 0.013888; prevalence 0.220400; 5/5 seeds.
+NDVI >= 0.6, linear: ROC-AUC 0.782233 +/- 0.000000; AP 0.012884 +/- 0.000000; prevalence 0.005350; 5/5 seeds.
+NDVI >= 0.6, transformer: ROC-AUC 0.755555 +/- 0.027321; AP 0.013638 +/- 0.002039; prevalence 0.005350; 5/5 seeds.
+
+The +/- values are sample SD across seeds on this fixed dataset, not confidence intervals across independent fields. No new significance tests were performed. The earlier RMSE p-value does not test differences in AUC or AP.
+AP is sklearn average precision, not trapezoidal PR area. PR no-skill baseline is prevalence.
+A score can rank healthy samples without any predicted NDVI reaching 0.6. Ranking metrics do not reverse the previously observed poor fixed-threshold classification.
+Historical attention covers valid keys/queries only, with support counts and a uniform-history baseline correction. It is not causal attribution or target-to-history cross-attention.
+Full per-head illustrative NPZ attention has axes [layer, head, query_date, key_date].
+Original file audit unchanged: True
+Attention extraction status by seed:
+Seed 42: available; samples 20000
+Seed 43: available; samples 20000
+Seed 44: available; samples 20000
+Seed 45: available; samples 20000
+Seed 46: available; samples 20000

@@ -1,0 +1,52 @@
+[
+  {
+    "sample_index": 351,
+    "target_date": "2024-08-15",
+    "season": "provisional_2024_feb_aug",
+    "historical_dates": [
+      "2024-02-26",
+      "2024-03-04",
+      "2024-03-11",
+      "2024-03-27",
+      "2024-04-03",
+      "2024-04-29",
+      "2024-05-27",
+      "2024-05-30",
+      "2024-08-08"
+    ],
+    "file": "example_351_per_head.npz"
+  },
+  {
+    "sample_index": 3387,
+    "target_date": "2022-08-12",
+    "season": "provisional_2022_apr_aug",
+    "historical_dates": [
+      "2022-05-06",
+      "2022-07-08",
+      "2022-08-05"
+    ],
+    "file": "example_3387_per_head.npz"
+  },
+  {
+    "sample_index": 8726,
+    "target_date": "2025-04-14",
+    "season": "provisional_2025_feb_apr",
+    "historical_dates": [
+      "2025-02-27",
+      "2025-04-01"
+    ],
+    "file": "example_8726_per_head.npz"
+  },
+  {
+    "sample_index": 8810,
+    "target_date": "2024-12-06",
+    "season": "provisional_2024_sep_dec",
+    "historical_dates": [
+      "2024-09-13",
+      "2024-10-04",
+      "2024-10-18",
+      "2024-10-25"
+    ],
+    "file": "example_8810_per_head.npz"
+  }
+]

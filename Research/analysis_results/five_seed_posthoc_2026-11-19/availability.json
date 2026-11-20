@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 42,
+    "ranking_status": "available",
+    "attention_status": "available",
+    "attention_samples": 20000,
+    "max_forward_abs_error": 1.4901161193847656e-07,
+    "max_saved_prediction_abs_error": 5.960464477539063e-08
+  },
+  {
+    "seed": 43,
+    "ranking_status": "available",
+    "attention_status": "available",
+    "attention_samples": 20000,
+    "max_forward_abs_error": 1.1920928955078125e-07,
+    "max_saved_prediction_abs_error": 5.960464477539063e-08
+  },
+  {
+    "seed": 44,
+    "ranking_status": "available",
+    "attention_status": "available",
+    "attention_samples": 20000,
+    "max_forward_abs_error": 1.1920928955078125e-07,
+    "max_saved_prediction_abs_error": 5.960464477539063e-08
+  },
+  {
+    "seed": 45,
+    "ranking_status": "available",
+    "attention_status": "available",
+    "attention_samples": 20000,
+    "max_forward_abs_error": 1.4901161193847656e-07,
+    "max_saved_prediction_abs_error": 5.960464477539063e-08
+  },
+  {
+    "seed": 46,
+    "ranking_status": "available",
+    "attention_status": "available",
+    "attention_samples": 20000,
+    "max_forward_abs_error": 5.960464477539063e-08,
+    "max_saved_prediction_abs_error": 5.960464477539063e-08
+  }
+]

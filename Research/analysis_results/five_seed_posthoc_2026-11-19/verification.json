@@ -1,0 +1,10 @@
+{
+  "all_seed_threshold_model_metrics_checked": 20,
+  "all_attention_seed_samples": 100000,
+  "illustrative_per_head_arrays_checked": 20,
+  "all_original_files_unchanged": true,
+  "no_retraining": true,
+  "analysis_code_sha256": "3515a71da07ce2d39b10085114ae98d66c7120ba1c443bc61d33fa9525f4e60e",
+  "new_unit_tests_passed": 9,
+  "curves_reproduce_metrics": true
+}

@@ -1,0 +1,5 @@
+seed,model,cutoff,positive_definition,status,n,positives,negatives,prevalence,roc_auc,average_precision
+45,linear,0.4,actual NDVI >= 0.4,available,20000,4408,15592,0.2204,0.678646921172289,0.31865053215333317
+45,transformer,0.4,actual NDVI >= 0.4,available,20000,4408,15592,0.2204,0.6694168501297607,0.3123325932536548
+45,linear,0.6,actual NDVI >= 0.6,available,20000,107,19893,0.00535,0.7822328429058077,0.012883700916533299
+45,transformer,0.6,actual NDVI >= 0.6,available,20000,107,19893,0.00535,0.7540159949186089,0.013497257811153553

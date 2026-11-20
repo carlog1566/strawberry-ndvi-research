@@ -77,6 +77,8 @@ The following files expose existing implementations through additional public im
 | `docs/research-methods.md` | Dataset assumptions, split definitions, model settings and output interpretation. |
 | `docs/repeated-comparison.md` | Five-seed comparison protocol, commands and interpretation limits. |
 | `docs/presentation-brief.md` | Self-contained presentation source covering models, experiments, results, software tests and proposal gaps. |
+| `analysis/` | Separate read-only ROC/AP and historical-attention analysis code and isolated tests. |
+| `analysis_results/five_seed_posthoc_2026-11-19/` | Completed post-hoc results, per-seed plots/tables, attention matrices and presentation summary; public copies omit private raw context. |
 | `docs/legacy-regression.md` | Differences, commands and saved artifacts for the standalone regression workflow. |
 | `configs/README.md` | Configuration selection and default-loading behavior. |
 | `docs/validation.md` | Prior validation evidence and research limitations. |

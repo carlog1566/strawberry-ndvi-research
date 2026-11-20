@@ -86,7 +86,7 @@
     {
       "path": "Research/docs/presentation-brief.md",
       "source_sha256": "f26cecc74645b1898224091fc72e2c3e57453026d7302a024a89dea4f90281be",
-      "shared_sha256": "f26cecc74645b1898224091fc72e2c3e57453026d7302a024a89dea4f90281be"
+      "shared_sha256": "2b194d815cbc62fff14726ef724dcd622598d35c9cc921603f55de013b4bbec2"
     },
     {
       "path": "Research/docs/repeated-comparison.md",
@@ -96,7 +96,7 @@
     {
       "path": "Research/docs/repository-map.md",
       "source_sha256": "4be5ff09cad952bc024acc5e3cc87d628c31e922c46a9091970dd64e326da337",
-      "shared_sha256": "4be5ff09cad952bc024acc5e3cc87d628c31e922c46a9091970dd64e326da337"
+      "shared_sha256": "0ab900d2055cf86fd1a62d15b1c94fd983e3e1e8019f35ecb5a77f41099a7483"
     },
     {
       "path": "Research/docs/research-methods.md",
@@ -2152,6 +2152,746 @@
       "path": "Research/runs/cross_year_2025/cli_validation/evaluation_test/test_transformer_scatter.png",
       "source_sha256": "49519890c4f8f79457a1c22fa1125af989bb5915671528c35abea9883be54c93",
       "shared_sha256": "49519890c4f8f79457a1c22fa1125af989bb5915671528c35abea9883be54c93"
+    },
+    {
+      "path": "Research/analysis/five_seed_posthoc.py",
+      "source_sha256": "3515a71da07ce2d39b10085114ae98d66c7120ba1c443bc61d33fa9525f4e60e",
+      "shared_sha256": "ae380dd8746da88f1aa33d7de55a12505dd45576fa5d576637c21366c9d143bd"
+    },
+    {
+      "path": "Research/analysis/test_five_seed_posthoc.py",
+      "source_sha256": "8baf02430e7bee83ebf5aa17d0e2e9ace579abfb0b7eed9624e2da61e419c7f5",
+      "shared_sha256": "70c5a0bed63eee0e6e31c34ba6275199c6ca4be81801ca9bfaa3c4831131bc10"
+    },
+    {
+      "path": "Research/analysis/README.txt",
+      "source_sha256": "1a4736c78044f0ee4e82eedb41728f7bf924d4e9c088fa4df4b5e9bb52fac3fd",
+      "shared_sha256": "ad013c50a429d375b92aec01d5047b1a3cd231e5984531734ffde826c5c4033c"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/analysis_protocol.json",
+      "source_sha256": "16aa46f860af4066d61fa1690f1e0793c48caba06dff3fef6c36bea436121e2c",
+      "shared_sha256": "c413fda486a45dc0d4e0fd61666ad1ac1038d4e211aa2ef67f4fbe4cd37eef7e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/attention_all_seeds_layer_head_dates.csv",
+      "source_sha256": "9ae7994e30690d98fc2fe9d9beb499459f362cb180f3d97427bab2f31b9684a5",
+      "shared_sha256": "9ae7994e30690d98fc2fe9d9beb499459f362cb180f3d97427bab2f31b9684a5"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/attention_date_seed_summary.csv",
+      "source_sha256": "790649600cf69976c9e907fdbff2a98ce67e2024166ad7a6025f57af50f9c5a0",
+      "shared_sha256": "790649600cf69976c9e907fdbff2a98ce67e2024166ad7a6025f57af50f9c5a0"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/attention_five_seed_date_summary.png",
+      "source_sha256": "991a68240c511e1dd447bd4c86a14540c364edd4a89880bc373fdc576e6e8617",
+      "shared_sha256": "991a68240c511e1dd447bd4c86a14540c364edd4a89880bc373fdc576e6e8617"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/attention_per_seed_dates.csv",
+      "source_sha256": "d92e8028164ea8b7ddbec21b3bb4fefe4d448310efc4d172914fa4c7ae35bfdf",
+      "shared_sha256": "d92e8028164ea8b7ddbec21b3bb4fefe4d448310efc4d172914fa4c7ae35bfdf"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/availability.json",
+      "source_sha256": "f72564960c2f245789f051557a2a7bbe5566a51e8076ca8e11e356b1d854a6a6",
+      "shared_sha256": "f72564960c2f245789f051557a2a7bbe5566a51e8076ca8e11e356b1d854a6a6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/healthy_precision_recall_zoom.png",
+      "source_sha256": "65c3f6d20b84e729bb15277a28f55753fd109819954be857b4d430d361ec0946",
+      "shared_sha256": "65c3f6d20b84e729bb15277a28f55753fd109819954be857b4d430d361ec0946"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/input_integrity.json",
+      "source_sha256": "fa85ba0ba83752297cde4ccbe566b54e3d7c6899cdf53877f2e64bffcdc91ca5",
+      "shared_sha256": "fa85ba0ba83752297cde4ccbe566b54e3d7c6899cdf53877f2e64bffcdc91ca5"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/presentation_summary.txt",
+      "source_sha256": "19c2e347da1b8693d32c93ee3b8016cbf75a6eabc77ec3fc5ab1870f322791e9",
+      "shared_sha256": "19c2e347da1b8693d32c93ee3b8016cbf75a6eabc77ec3fc5ab1870f322791e9"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/ranking_metrics_all_seeds.csv",
+      "source_sha256": "80630c3a889f0334a8827708095a9d8ed4ff7a55e8cbbb6ed874f176f14ac06d",
+      "shared_sha256": "80630c3a889f0334a8827708095a9d8ed4ff7a55e8cbbb6ed874f176f14ac06d"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/ranking_metrics_seed_mean_sd.png",
+      "source_sha256": "90715716d58fe6775785876d564b04832b50f5374fd46e16017aaf91b0cf491e",
+      "shared_sha256": "90715716d58fe6775785876d564b04832b50f5374fd46e16017aaf91b0cf491e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/ranking_metrics_summary.csv",
+      "source_sha256": "5b901a2daccf1a3f34018b90819be6bae25c34b26a66fb8f1cd84e38f7a76700",
+      "shared_sha256": "5b901a2daccf1a3f34018b90819be6bae25c34b26a66fb8f1cd84e38f7a76700"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/report.html",
+      "source_sha256": "1c519659d26622356f86ffde8e86fa0ad7e6def2e8eb2c9d96af91c12a77a1ba",
+      "shared_sha256": "1c519659d26622356f86ffde8e86fa0ad7e6def2e8eb2c9d96af91c12a77a1ba"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/roc_pr_five_seed_summary.png",
+      "source_sha256": "51e852744226962a702b0287f448baedc8a4adff07de6a3915befd312c9934e7",
+      "shared_sha256": "51e852744226962a702b0287f448baedc8a4adff07de6a3915befd312c9934e7"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/verification.json",
+      "source_sha256": "fa89cc983a4c50898901e46bcbc56261623611b328518c9936c92f0781474395",
+      "shared_sha256": "fa89cc983a4c50898901e46bcbc56261623611b328518c9936c92f0781474395"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/linear_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6",
+      "shared_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/linear_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256",
+      "shared_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/linear_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e",
+      "shared_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/linear_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09",
+      "shared_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/ranking_metrics.csv",
+      "source_sha256": "4cc84158f5a90f1d8cd4fe8cf027981b0bda26ee351bc80b9430da7851b01d93",
+      "shared_sha256": "4cc84158f5a90f1d8cd4fe8cf027981b0bda26ee351bc80b9430da7851b01d93"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/roc_pr.png",
+      "source_sha256": "472e90a104759b87a46182fbb56ec6132679c30645a49e7c731acb76a00808d4",
+      "shared_sha256": "472e90a104759b87a46182fbb56ec6132679c30645a49e7c731acb76a00808d4"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/transformer_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "857df15e70a804b85197ff93e3463fbbe50dae62eac975bdab3e24e9f94fc163",
+      "shared_sha256": "857df15e70a804b85197ff93e3463fbbe50dae62eac975bdab3e24e9f94fc163"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/transformer_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "30e553cc2dc6f5dc1e4afd436b16c44c115e3881001154e372b51bafca6aac25",
+      "shared_sha256": "30e553cc2dc6f5dc1e4afd436b16c44c115e3881001154e372b51bafca6aac25"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/transformer_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "78517dd0930e6565fbac2582813bf88ef203526bc61b0240882386110fa78597",
+      "shared_sha256": "78517dd0930e6565fbac2582813bf88ef203526bc61b0240882386110fa78597"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/transformer_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "50d86d78bd5a807f9d33b91f19d6cb93e95be6ea93db921c02f47f8dffcf9132",
+      "shared_sha256": "50d86d78bd5a807f9d33b91f19d6cb93e95be6ea93db921c02f47f8dffcf9132"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/linear_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6",
+      "shared_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/linear_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256",
+      "shared_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/linear_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e",
+      "shared_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/linear_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09",
+      "shared_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/ranking_metrics.csv",
+      "source_sha256": "40fb77a71c001db0aef3e3dba95778e8466b319e0dd57506247a76f4da2e1d58",
+      "shared_sha256": "40fb77a71c001db0aef3e3dba95778e8466b319e0dd57506247a76f4da2e1d58"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/roc_pr.png",
+      "source_sha256": "afd8bf8b5913f9fa263a8d8c58d6b05fcb56780f07ab7806f4dc2c00fe94c74c",
+      "shared_sha256": "afd8bf8b5913f9fa263a8d8c58d6b05fcb56780f07ab7806f4dc2c00fe94c74c"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/transformer_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "ebd3c97b58e94e5622296d21bb9eea5fc40f28eea23419760b770663aa31c78b",
+      "shared_sha256": "ebd3c97b58e94e5622296d21bb9eea5fc40f28eea23419760b770663aa31c78b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/transformer_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "360eaab4e2d7cf7389c11759e478e661cb49c285a694e63576b640e36fb3480b",
+      "shared_sha256": "360eaab4e2d7cf7389c11759e478e661cb49c285a694e63576b640e36fb3480b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/transformer_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "19e8b95df7b3ec285af0a262df3601d62a7c187f5b1cb8f4f0f0de5dc613f524",
+      "shared_sha256": "19e8b95df7b3ec285af0a262df3601d62a7c187f5b1cb8f4f0f0de5dc613f524"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/transformer_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "df9797f4838797ba670289de19f37fc45f0570f9d154c00a6d124969231dde1b",
+      "shared_sha256": "df9797f4838797ba670289de19f37fc45f0570f9d154c00a6d124969231dde1b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/linear_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6",
+      "shared_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/linear_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256",
+      "shared_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/linear_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e",
+      "shared_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/linear_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09",
+      "shared_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/ranking_metrics.csv",
+      "source_sha256": "2cbaeb26aca1101af015a2e1d361ef0373781f0474a534eae0446bb2e531b615",
+      "shared_sha256": "2cbaeb26aca1101af015a2e1d361ef0373781f0474a534eae0446bb2e531b615"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/roc_pr.png",
+      "source_sha256": "31b59089ff46747e68852ec276bb2bcfa6fb1ee99a1350024d21c1853e660a05",
+      "shared_sha256": "31b59089ff46747e68852ec276bb2bcfa6fb1ee99a1350024d21c1853e660a05"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/transformer_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "ed6e6907f3034df90ed96b824bb7ec2e896facb5a773b802fbe6018ae139a89b",
+      "shared_sha256": "ed6e6907f3034df90ed96b824bb7ec2e896facb5a773b802fbe6018ae139a89b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/transformer_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "64247b8cf0bebc803d2728dee67d563ade307baefe7d9e94d837cee29fd0bd3a",
+      "shared_sha256": "64247b8cf0bebc803d2728dee67d563ade307baefe7d9e94d837cee29fd0bd3a"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/transformer_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "df5fe9bfd4141a53bc16682add199b82a1ecd1d588c53dd8567e7e6e45c67bbe",
+      "shared_sha256": "df5fe9bfd4141a53bc16682add199b82a1ecd1d588c53dd8567e7e6e45c67bbe"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/transformer_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "20acdbbd1dd3eb4b7014a7aa4104fdb733e55ab86a44d8d3da28c2cacc42cb86",
+      "shared_sha256": "20acdbbd1dd3eb4b7014a7aa4104fdb733e55ab86a44d8d3da28c2cacc42cb86"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/linear_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6",
+      "shared_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/linear_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256",
+      "shared_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/linear_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e",
+      "shared_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/linear_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09",
+      "shared_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/ranking_metrics.csv",
+      "source_sha256": "04425fb9058f886ccaee3092d0029a34084908070224851d7a773744aed8cacb",
+      "shared_sha256": "04425fb9058f886ccaee3092d0029a34084908070224851d7a773744aed8cacb"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/roc_pr.png",
+      "source_sha256": "a6cbeccbdcb85eec6f54b5accbf622aaad730d4aec373a1303868873eee93674",
+      "shared_sha256": "a6cbeccbdcb85eec6f54b5accbf622aaad730d4aec373a1303868873eee93674"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/transformer_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "1b626ece8bce3bcd163cec5eecae0cac2e1c026b62a3b6a5edd022554c2bbd4a",
+      "shared_sha256": "1b626ece8bce3bcd163cec5eecae0cac2e1c026b62a3b6a5edd022554c2bbd4a"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/transformer_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "1f126e82651e9f1d959effb54a9e7cbdfe9021684c37ba1d74091e6191d5f0fc",
+      "shared_sha256": "1f126e82651e9f1d959effb54a9e7cbdfe9021684c37ba1d74091e6191d5f0fc"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/transformer_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "dbf26c80245ddb46a911e957f40d060572760f955a23c31d18b7e604ea82d6a8",
+      "shared_sha256": "dbf26c80245ddb46a911e957f40d060572760f955a23c31d18b7e604ea82d6a8"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/transformer_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "eb5a46d3c52ca5f6806501ae8327ac4e1514a721af63746dcce8a6dba087207e",
+      "shared_sha256": "eb5a46d3c52ca5f6806501ae8327ac4e1514a721af63746dcce8a6dba087207e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/linear_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6",
+      "shared_sha256": "711e8087f212e6ad200c93c9434e3d094bd2b85b11a5375200f3b744f55193b6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/linear_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256",
+      "shared_sha256": "3e88af297e120c55beaf63db002228c2d5d293812734f52c6ac41ee0c986e256"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/linear_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e",
+      "shared_sha256": "c2d1c6db8b8da9ad36284876fb79b72efecd589703e3e4eecc365fd453714a9e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/linear_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09",
+      "shared_sha256": "f13a144c9520bd56d01a4d68374f1192d68dbb6c095c8d854c86f8f0eb609a09"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/ranking_metrics.csv",
+      "source_sha256": "bb502e4519949d423b6d7494fe40124ab3916ebd7bc5cccb1a3cda708bc0be9b",
+      "shared_sha256": "bb502e4519949d423b6d7494fe40124ab3916ebd7bc5cccb1a3cda708bc0be9b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/roc_pr.png",
+      "source_sha256": "b98447beaec0d893ef0b09fc93bf6330312f8ee95a1808ab49e5eb2cb701503a",
+      "shared_sha256": "b98447beaec0d893ef0b09fc93bf6330312f8ee95a1808ab49e5eb2cb701503a"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/transformer_ndvi_ge_0_4_precision_recall.csv",
+      "source_sha256": "e81046b194a5570d319cf4fb667c8cb769e48ad037a967c5fe3bd1706e92fd46",
+      "shared_sha256": "e81046b194a5570d319cf4fb667c8cb769e48ad037a967c5fe3bd1706e92fd46"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/transformer_ndvi_ge_0_4_roc.csv",
+      "source_sha256": "95333e3b67478f97fa71d7171eaa1a6f25a81280cd466229b6810a27dd91d933",
+      "shared_sha256": "95333e3b67478f97fa71d7171eaa1a6f25a81280cd466229b6810a27dd91d933"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/transformer_ndvi_ge_0_6_precision_recall.csv",
+      "source_sha256": "2ff07d3e739050545c6fa46f3c230d1f438a477da90f77f37c00043ce33e0224",
+      "shared_sha256": "2ff07d3e739050545c6fa46f3c230d1f438a477da90f77f37c00043ce33e0224"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/transformer_ndvi_ge_0_6_roc.csv",
+      "source_sha256": "92e04406d0a47b13e7778d3a0ad32c9ebff9b62905b9e52dc80633bdb69b559b",
+      "shared_sha256": "92e04406d0a47b13e7778d3a0ad32c9ebff9b62905b9e52dc80633bdb69b559b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/acquisition_support.csv",
+      "source_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f",
+      "shared_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/attention_verification.json",
+      "source_sha256": "5d3538543ce5e2e8e89c6c37d43d94beacea5b4f5b44f9884fad0516232e5e7e",
+      "shared_sha256": "5d3538543ce5e2e8e89c6c37d43d94beacea5b4f5b44f9884fad0516232e5e7e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_3387_layer_means.png",
+      "source_sha256": "154b4ad9bf4659da217e35d544e6d7d792551005851479c4b42ba94b662cfcf0",
+      "shared_sha256": "154b4ad9bf4659da217e35d544e6d7d792551005851479c4b42ba94b662cfcf0"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_3387_per_head.npz",
+      "source_sha256": "867e1cf5412f148883d8ae9d07036980758bf72e526cb1cc9c6424f91cedf614",
+      "shared_sha256": "9e51dc671467045528206ddc709e4bfacf192d91998c0d2c09ecc281d65872ce"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_351_layer_means.png",
+      "source_sha256": "6661731f34c3b417a8b5bc2c09f6fedbbf700f73310c8b3ae55ef1a60fafad16",
+      "shared_sha256": "6661731f34c3b417a8b5bc2c09f6fedbbf700f73310c8b3ae55ef1a60fafad16"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_351_per_head.npz",
+      "source_sha256": "d4a62e492c3457fb5f74a486014dbc60303471591ce73ac67f20953aec51aa48",
+      "shared_sha256": "566a6e135f669f2261b57f0ae08dd71401185558b2a0ce18c118da893dc679f5"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_8726_layer_means.png",
+      "source_sha256": "0f139be1c3e57e4e6d47beb400e2dd719788728d51c7827d481ec1d3400b4dfa",
+      "shared_sha256": "0f139be1c3e57e4e6d47beb400e2dd719788728d51c7827d481ec1d3400b4dfa"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_8726_per_head.npz",
+      "source_sha256": "e14d8ccea0de664b316bec655d04a761949a31e408af53952c268d009c0ea5d4",
+      "shared_sha256": "434f39477020135b77a0088ff62eaf2fe19a5581daf86001460f325b49679e99"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_8810_layer_means.png",
+      "source_sha256": "db8a57deecc77862813de87a9eb67de2f7495be5fdb52f89d2f4288c44aa70c1",
+      "shared_sha256": "db8a57deecc77862813de87a9eb67de2f7495be5fdb52f89d2f4288c44aa70c1"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/example_8810_per_head.npz",
+      "source_sha256": "9efa7ba8ae6cf9e81ffdba021b19cad872456a48fc2af7328e7e068d2b7a68b3",
+      "shared_sha256": "42a9d31c6db60e32042ef293d01304571078bd96bc4e73223344cba6e6f40119"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/historical_date_attention.csv",
+      "source_sha256": "079250fcbf8ce914952748904ad596da4fcd0f0ddcea389dab8d0124b6263e9e",
+      "shared_sha256": "079250fcbf8ce914952748904ad596da4fcd0f0ddcea389dab8d0124b6263e9e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/historical_date_pairs.csv",
+      "source_sha256": "c24e920151cdeadb5abcf7480af096dc890db491a801c18fbf195f89647de7b9",
+      "shared_sha256": "c24e920151cdeadb5abcf7480af096dc890db491a801c18fbf195f89647de7b9"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/illustrative_examples.json",
+      "source_sha256": "8cfed2b978d274fff695a25dbbd81b290cf15863c10c51bdc3f490f1227e4fb1",
+      "shared_sha256": "cde00d29505dff3cbf8f58536fd0bc104b8960cf710a76c678dc6f4846eeca22"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/last_layer_date_pairs.png",
+      "source_sha256": "797ad512c7c17d69f7a706c47bc8e55a9f88d92ebc5d9c1567a7a5c2f34530d8",
+      "shared_sha256": "797ad512c7c17d69f7a706c47bc8e55a9f88d92ebc5d9c1567a7a5c2f34530d8"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/layer_head_date_attention.png",
+      "source_sha256": "3b6b510175945339da1ba0c678559c828ee55e0a9d74cf4a02490d1f48d3d018",
+      "shared_sha256": "3b6b510175945339da1ba0c678559c828ee55e0a9d74cf4a02490d1f48d3d018"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_46/attention/received_attention_by_date.png",
+      "source_sha256": "d0daee827ce1d5e254ddc644c70c4cca17dfbca34a4057d8e04804914877809a",
+      "shared_sha256": "d0daee827ce1d5e254ddc644c70c4cca17dfbca34a4057d8e04804914877809a"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/acquisition_support.csv",
+      "source_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f",
+      "shared_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/attention_verification.json",
+      "source_sha256": "cf288b9cc632f42f2023b5aadc0e270c49b355a49d53bb93847610a323be392b",
+      "shared_sha256": "cf288b9cc632f42f2023b5aadc0e270c49b355a49d53bb93847610a323be392b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_3387_layer_means.png",
+      "source_sha256": "a0f6b344a0b7e91fcd3e9d42f786f90a118a9f20e2f6d436274656db1631dc41",
+      "shared_sha256": "a0f6b344a0b7e91fcd3e9d42f786f90a118a9f20e2f6d436274656db1631dc41"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_3387_per_head.npz",
+      "source_sha256": "0946ab02f0fddfa71ed3491651ad2bc62164b3455ade0d4bf8a5107f3052aee2",
+      "shared_sha256": "430359167d98a91110e92329cfc48d8476481cefe6424689370b8760999ab655"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_351_layer_means.png",
+      "source_sha256": "420ccc07656e07e0d8ee18ad1e6cd02bb6b1674cd90239224fa60a47ac72d962",
+      "shared_sha256": "420ccc07656e07e0d8ee18ad1e6cd02bb6b1674cd90239224fa60a47ac72d962"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_351_per_head.npz",
+      "source_sha256": "46713aeb3a2f75e5f1f1db74aae81b18ed99878100eb22e3ce6408a653206dc1",
+      "shared_sha256": "b82b225f0f117d1daac6dd990ae6671bd4c5166f4a815fc8a1b5717d562c12d2"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_8726_layer_means.png",
+      "source_sha256": "8a25fc0bd127e925d7cfa0124bbacfe3d9108070be675eab1b6c9acaa7ff76be",
+      "shared_sha256": "8a25fc0bd127e925d7cfa0124bbacfe3d9108070be675eab1b6c9acaa7ff76be"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_8726_per_head.npz",
+      "source_sha256": "4b96ec7a79e9d9efee746962310203df2abb33027634907e794304807e1aff85",
+      "shared_sha256": "9b6d53dbecdf53c23c896444a9acb64f19f9c6a99df7f5c7ca1c6be33d81f729"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_8810_layer_means.png",
+      "source_sha256": "8f0a5c22622083185a48506e83d86c06bf504750e18e7a03a8af7da88269c8b0",
+      "shared_sha256": "8f0a5c22622083185a48506e83d86c06bf504750e18e7a03a8af7da88269c8b0"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/example_8810_per_head.npz",
+      "source_sha256": "9f8afe7371ebb82467b989249157c12206e89b05a1daefd74f05426d55ed538c",
+      "shared_sha256": "21fb87c162ca106823c27d86dd2611bc2ffb686b44d0ff1510504b07dbc49e12"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/historical_date_attention.csv",
+      "source_sha256": "08995869d848c2a7d68d750a7cde105d7df6529e120e4d240ed573c2c6a29082",
+      "shared_sha256": "08995869d848c2a7d68d750a7cde105d7df6529e120e4d240ed573c2c6a29082"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/historical_date_pairs.csv",
+      "source_sha256": "59c6c701b4aeda55bf7229acf32abdeff68bde1720db54595e9e90152e8dc872",
+      "shared_sha256": "59c6c701b4aeda55bf7229acf32abdeff68bde1720db54595e9e90152e8dc872"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/illustrative_examples.json",
+      "source_sha256": "8cfed2b978d274fff695a25dbbd81b290cf15863c10c51bdc3f490f1227e4fb1",
+      "shared_sha256": "cde00d29505dff3cbf8f58536fd0bc104b8960cf710a76c678dc6f4846eeca22"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/last_layer_date_pairs.png",
+      "source_sha256": "114c796069b86f7f67b235429269b380b22d324932f251ca262d013194a36824",
+      "shared_sha256": "114c796069b86f7f67b235429269b380b22d324932f251ca262d013194a36824"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/layer_head_date_attention.png",
+      "source_sha256": "a118c360d53715d2aacfa883dd64b6a9e98464b57f3a8166973f01bd6af5c690",
+      "shared_sha256": "a118c360d53715d2aacfa883dd64b6a9e98464b57f3a8166973f01bd6af5c690"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_45/attention/received_attention_by_date.png",
+      "source_sha256": "f48ecf3c207578439063a3eb37a05ee8bea4c5b3ceb7125d9f2044407e06cdd0",
+      "shared_sha256": "f48ecf3c207578439063a3eb37a05ee8bea4c5b3ceb7125d9f2044407e06cdd0"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/acquisition_support.csv",
+      "source_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f",
+      "shared_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/attention_verification.json",
+      "source_sha256": "b9beeb8af2713b0bcba65a8ca26477b8d064de8a3875f44ba1845fc9ab1a0839",
+      "shared_sha256": "b9beeb8af2713b0bcba65a8ca26477b8d064de8a3875f44ba1845fc9ab1a0839"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_3387_layer_means.png",
+      "source_sha256": "0150ae74adcd2d0c9139d383b5d1be4a05e711afee3bc683d5e154a9a05df7c3",
+      "shared_sha256": "0150ae74adcd2d0c9139d383b5d1be4a05e711afee3bc683d5e154a9a05df7c3"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_3387_per_head.npz",
+      "source_sha256": "de9e6a3320f5197d5957ce7d47415e01e26ec379f92e724ccb8a0388b9a14a29",
+      "shared_sha256": "9ac10a4ab747851a624f51c6be82a5e66ecbf3abba4e70b6e453701c75b8c549"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_351_layer_means.png",
+      "source_sha256": "f476f1e41a0779c7d3d77d839aefc2216303392040ea853e0ba342e9935f3c7c",
+      "shared_sha256": "f476f1e41a0779c7d3d77d839aefc2216303392040ea853e0ba342e9935f3c7c"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_351_per_head.npz",
+      "source_sha256": "987d31f9d7a4b948a3dcff0b0cbe47593a0573c0d4e730bfe95d42970ab7d609",
+      "shared_sha256": "413f4a02e266e6a1a10c3b673b1c525db9b131baf3bd99334c69a819b0d13de1"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_8726_layer_means.png",
+      "source_sha256": "dbad86acb18f736e5d894bcab668024c90c85865777a505b19c1d7779588a9ca",
+      "shared_sha256": "dbad86acb18f736e5d894bcab668024c90c85865777a505b19c1d7779588a9ca"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_8726_per_head.npz",
+      "source_sha256": "f3f6947b6b8c113e72a55ceba9ca96f2eba5c96e9ccc42a55a73bb22bc2214eb",
+      "shared_sha256": "a4eb0bedd53380ebafce63ca721b2d6cf03e12a7b15ce03be33e3cdd6aea6c65"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_8810_layer_means.png",
+      "source_sha256": "78edad46138fc1dfb3af9a2005e143091f9d29c7a17cfe39b8057d692da9f54f",
+      "shared_sha256": "78edad46138fc1dfb3af9a2005e143091f9d29c7a17cfe39b8057d692da9f54f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/example_8810_per_head.npz",
+      "source_sha256": "887e185b1872533f802ea440cafbd282dd45535fa9ee97cd72c5a7aa9d2c20de",
+      "shared_sha256": "8eb02aba0a6d45998878de4ea632ec75acd9430e0e786ad8dc5eff09764d8ee7"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/historical_date_attention.csv",
+      "source_sha256": "739eb31983faa28db52590feb6681a79992b15ebaff3a08d3d5cb2d411071337",
+      "shared_sha256": "739eb31983faa28db52590feb6681a79992b15ebaff3a08d3d5cb2d411071337"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/historical_date_pairs.csv",
+      "source_sha256": "df6f16a0a08e582c564877dd664279cc4546ef5cbfcb2f4c2dffdab8cbceeff9",
+      "shared_sha256": "df6f16a0a08e582c564877dd664279cc4546ef5cbfcb2f4c2dffdab8cbceeff9"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/illustrative_examples.json",
+      "source_sha256": "8cfed2b978d274fff695a25dbbd81b290cf15863c10c51bdc3f490f1227e4fb1",
+      "shared_sha256": "cde00d29505dff3cbf8f58536fd0bc104b8960cf710a76c678dc6f4846eeca22"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/last_layer_date_pairs.png",
+      "source_sha256": "9826766b3388f9255fa2d0036c632ce270d89a30980245436790748ac3000d8a",
+      "shared_sha256": "9826766b3388f9255fa2d0036c632ce270d89a30980245436790748ac3000d8a"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/layer_head_date_attention.png",
+      "source_sha256": "b80cbcb38d7963c0a6e157706db7b5f8815a940f487c707a5dcce2db9a4fd20e",
+      "shared_sha256": "b80cbcb38d7963c0a6e157706db7b5f8815a940f487c707a5dcce2db9a4fd20e"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_44/attention/received_attention_by_date.png",
+      "source_sha256": "20ca29cfa3399e136ac66053b28bd524d25f854f2217a00cd8c9d3ee1ba4eff3",
+      "shared_sha256": "20ca29cfa3399e136ac66053b28bd524d25f854f2217a00cd8c9d3ee1ba4eff3"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/acquisition_support.csv",
+      "source_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f",
+      "shared_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/attention_verification.json",
+      "source_sha256": "cb1f3f7781b90c08fdc49ffab0d8580a1ea87275dffb4c6ae13b5cb2d435f36d",
+      "shared_sha256": "cb1f3f7781b90c08fdc49ffab0d8580a1ea87275dffb4c6ae13b5cb2d435f36d"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_3387_layer_means.png",
+      "source_sha256": "e27a3edb8aa0c1c11c366abd4e9e353c95fb20c3a53fe1dfcdf337ec01b2084d",
+      "shared_sha256": "e27a3edb8aa0c1c11c366abd4e9e353c95fb20c3a53fe1dfcdf337ec01b2084d"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_3387_per_head.npz",
+      "source_sha256": "cfd29660242ff2dee6f6b3415f4c8c940883ae1a04314de8cd395c2e17216f8a",
+      "shared_sha256": "867bdcbc8175b778d133052fbcca2c4c6fc79b044729ffa6a21e81c11ee3db2f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_351_layer_means.png",
+      "source_sha256": "13d2c4fa1b2624789263d83b78caa0cc9b36a3c074f812cbc526324072dbf8de",
+      "shared_sha256": "13d2c4fa1b2624789263d83b78caa0cc9b36a3c074f812cbc526324072dbf8de"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_351_per_head.npz",
+      "source_sha256": "15806173378339a77eb165b2a281f5e08fbc176187c0e45698ad060db67d762a",
+      "shared_sha256": "bd97aadc2c35625aecfd1533ced367072857bffa1c20c5aa0f0b188bca395619"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_8726_layer_means.png",
+      "source_sha256": "a3cda243e631079502e0e07f286f60b386b04da93c7b225e6ec1c29e367c48a6",
+      "shared_sha256": "a3cda243e631079502e0e07f286f60b386b04da93c7b225e6ec1c29e367c48a6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_8726_per_head.npz",
+      "source_sha256": "f2a4a1994009b8b6672018dbca510f2615126652cacca43968bc9e66932b420a",
+      "shared_sha256": "d58d1e9098905fd5bfa29b07f6ca3f4e64edafe1d1001acc9e572c380864d606"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_8810_layer_means.png",
+      "source_sha256": "edc558c5e7fe12dfe90705fd708e531f76d833585fae6399e99a03d82977b45d",
+      "shared_sha256": "edc558c5e7fe12dfe90705fd708e531f76d833585fae6399e99a03d82977b45d"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/example_8810_per_head.npz",
+      "source_sha256": "7b651ff0972580f7ec37926859a03309044667f5c63f292d413d2b5155e240d0",
+      "shared_sha256": "cfd97ddd09d9c8ad4564f44587f774b040b477c53721df7852d7edf48af88de3"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/historical_date_attention.csv",
+      "source_sha256": "077f1cca9dbf94975920bdd8a69517200b9659b084d952b62c20bca71ccb5fbf",
+      "shared_sha256": "077f1cca9dbf94975920bdd8a69517200b9659b084d952b62c20bca71ccb5fbf"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/historical_date_pairs.csv",
+      "source_sha256": "15bc13095c233fedc8143e751b91fa5dc11b98636695b90ab5df107c95578fa2",
+      "shared_sha256": "15bc13095c233fedc8143e751b91fa5dc11b98636695b90ab5df107c95578fa2"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/illustrative_examples.json",
+      "source_sha256": "8cfed2b978d274fff695a25dbbd81b290cf15863c10c51bdc3f490f1227e4fb1",
+      "shared_sha256": "cde00d29505dff3cbf8f58536fd0bc104b8960cf710a76c678dc6f4846eeca22"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/last_layer_date_pairs.png",
+      "source_sha256": "eee0df79f1156cb8e93a31cd2f5720611353d3a598e22fe11bb35ab7e266917c",
+      "shared_sha256": "eee0df79f1156cb8e93a31cd2f5720611353d3a598e22fe11bb35ab7e266917c"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/layer_head_date_attention.png",
+      "source_sha256": "139319b52f990ec0aec1e31e74cb5c1a447cbe35685bc823410b477d3b4ef9d6",
+      "shared_sha256": "139319b52f990ec0aec1e31e74cb5c1a447cbe35685bc823410b477d3b4ef9d6"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_43/attention/received_attention_by_date.png",
+      "source_sha256": "90858bb811ed0e24959a014d72450f624d294dc5f9f5cb8c0901be4a32a69305",
+      "shared_sha256": "90858bb811ed0e24959a014d72450f624d294dc5f9f5cb8c0901be4a32a69305"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/acquisition_support.csv",
+      "source_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f",
+      "shared_sha256": "b568969a6043c15872969cedc221372c1e13f4918bcfa6a57f645d01e70da05f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/attention_verification.json",
+      "source_sha256": "024fceac04b55b08dfde13637981ab09a4aaafb2011b62263c4ba1038007c2a8",
+      "shared_sha256": "024fceac04b55b08dfde13637981ab09a4aaafb2011b62263c4ba1038007c2a8"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_3387_layer_means.png",
+      "source_sha256": "4ec67cba1fd92410998b2afaeb74d2f0d863187456505ba8c4d9fe1fc5645ee0",
+      "shared_sha256": "4ec67cba1fd92410998b2afaeb74d2f0d863187456505ba8c4d9fe1fc5645ee0"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_3387_per_head.npz",
+      "source_sha256": "a353396bb7e96a997f9d076b3179eee0d70fc9406758b3d8d6dbc5e3569fd962",
+      "shared_sha256": "8e63ded583eab3ff7699dc5757454959903319e9f19aef571a69672316e05e68"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_351_layer_means.png",
+      "source_sha256": "6eecf7130b9078bf3bd26de04f669437aebe6444f17b4f428577c9680858492c",
+      "shared_sha256": "6eecf7130b9078bf3bd26de04f669437aebe6444f17b4f428577c9680858492c"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_351_per_head.npz",
+      "source_sha256": "7750e9b714fdf7830da3961225430283c118dc16812ca904d69084c6b6227698",
+      "shared_sha256": "c86d2e94f2e42d0966b781f45a463df82564ba5b8c5b00ef577a95037b2dec55"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_8726_layer_means.png",
+      "source_sha256": "1808938fc112775e49b16e827e85147d3cf493d86a56a2fbf2392f6c621f3d69",
+      "shared_sha256": "1808938fc112775e49b16e827e85147d3cf493d86a56a2fbf2392f6c621f3d69"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_8726_per_head.npz",
+      "source_sha256": "c774dc73f97e381982e896b5e38a9f65208f48978581a2afefd2dffc510f4427",
+      "shared_sha256": "6911c7bc6014271362488243b3bea2dfac4078d2c8431597845ce6143ec41b9f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_8810_layer_means.png",
+      "source_sha256": "94ed5b1c961dba248380695ffb886e645b6d3af39595f50d8cd484ba21dfb3cf",
+      "shared_sha256": "94ed5b1c961dba248380695ffb886e645b6d3af39595f50d8cd484ba21dfb3cf"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/example_8810_per_head.npz",
+      "source_sha256": "b4c3b01437e8788f7335a494fd064daaa31b591ddfba4d77ad19b9414fc79593",
+      "shared_sha256": "8b21005b747a1b2d9b2c4a60de4a5a7f2c516dec2303ae53bf7a89875254fa4b"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/historical_date_attention.csv",
+      "source_sha256": "e66a84014729394feceeb56f773e7e7c8b922cd0450d5d794a37457e6ac8c5f5",
+      "shared_sha256": "e66a84014729394feceeb56f773e7e7c8b922cd0450d5d794a37457e6ac8c5f5"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/historical_date_pairs.csv",
+      "source_sha256": "c37b88e1e08ac0a785f938da0283906540cdd5e47382df54a340bd89bea2815f",
+      "shared_sha256": "c37b88e1e08ac0a785f938da0283906540cdd5e47382df54a340bd89bea2815f"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/illustrative_examples.json",
+      "source_sha256": "8cfed2b978d274fff695a25dbbd81b290cf15863c10c51bdc3f490f1227e4fb1",
+      "shared_sha256": "cde00d29505dff3cbf8f58536fd0bc104b8960cf710a76c678dc6f4846eeca22"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/last_layer_date_pairs.png",
+      "source_sha256": "a2aa5f03e6ed2a8a4fbe632bc6616dc643c09fe3a7a5123e0a824c86a3bdfb79",
+      "shared_sha256": "a2aa5f03e6ed2a8a4fbe632bc6616dc643c09fe3a7a5123e0a824c86a3bdfb79"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/layer_head_date_attention.png",
+      "source_sha256": "a6a4a754f1c38f1ecd00e8d41ae7f9f93a50d2f07483f8aa21da8d9432053f63",
+      "shared_sha256": "a6a4a754f1c38f1ecd00e8d41ae7f9f93a50d2f07483f8aa21da8d9432053f63"
+    },
+    {
+      "path": "Research/analysis_results/five_seed_posthoc_2026-11-19/seed_42/attention/received_attention_by_date.png",
+      "source_sha256": "b039024e819d1fe2216fe9310607bd507c66630a280fe7cc6a72645af7e3617e",
+      "shared_sha256": "b039024e819d1fe2216fe9310607bd507c66630a280fe7cc6a72645af7e3617e"
     }
   ],
   "excluded": [
@@ -2173,5 +2913,28 @@
     "original_files_unchanged": true,
     "public_content_scan": "passed"
   },
-  "github_repository": "https://github.com/carlog1566/strawberry-ndvi-research"
+  "github_repository": "https://github.com/carlog1566/strawberry-ndvi-research",
+  "posthoc_analysis": {
+    "date": "2026-11-19",
+    "files_added": 148,
+    "original_models_retrained": false,
+    "original_files_changed": false,
+    "protected_originals_checked": 771,
+    "isolated_analysis_tests_passed": 9,
+    "redactions": [
+      "machine-specific absolute paths",
+      "raw-file inventory",
+      "illustrative raw historical NDVI",
+      "illustrative pixel row/column coordinates"
+    ],
+    "included_attention_arrays": [
+      "attention",
+      "historical_dates",
+      "acquisition_ids"
+    ],
+    "sharing_copy_analysis_tests_passed": 9,
+    "numeric_results_and_attention_weights_preserved": true,
+    "public_content_scan": "passed",
+    "source_code_ast_matches_original": true
+  }
 }

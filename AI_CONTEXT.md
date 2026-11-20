@@ -9,7 +9,9 @@ Read `Research/docs/presentation-brief.md` first. It is the self-contained prese
 - The t-test concerns seed variability conditional on fixed data, not inference across independent fields, years or datasets.
 - OLS predicts every test sample as unfavorable; no transformer run predicts healthy samples. Include class imbalance and macro F1 when interpreting accuracy.
 - Health categories are NDVI thresholds, not independently measured agronomic diagnoses.
-- AUC-ROC, attention interpretation and a full real-data date/cross-year holdout are not completed results.
+- New post-hoc results are in `Research/analysis_results/five_seed_posthoc_2026-11-19/`. Read `presentation_summary.txt` and `ranking_metrics_summary.csv`. Binary ROC-AUC/AP at actual NDVI >=0.4 and >=0.6 are now complete; they use continuous scores, not hard labels or a calibrated three-class probability model.
+- Historical self-attention was recovered for all five seeds, four layers and eight heads on 20,000 test samples per seed. Per-date summaries, per-head matrices and support counts are included. These describe historical-token mixing, not causal influence or direct future-target-to-history cross-attention.
+- A full real-data date/cross-year holdout, causal temporal attribution and controlled ablations remain incomplete. The earlier RMSE p-value does not test the new AUC/AP differences.
 - Synthetic smoke scores test workflow execution, not real strawberry performance.
 - Explain differences from the proposal, including acquisition years and baseline features. Do not present proposed methods as completed if the implementation differs.
 - Raw rasters, caches, trained research checkpoints and per-pixel predictions are intentionally absent. A public clone cannot reproduce real-data training without the original inputs.

@@ -1,0 +1,10 @@
+{
+  "unchanged": true,
+  "changed_files": [],
+  "protected_files": 771,
+  "hash_policy": "SHA256 for files <=2 MB and all checkpoints/joblib; size+mtime_ns for every protected file",
+  "no_training": true,
+  "existing_results_overwritten": false,
+  "existing_model_source_modified": false,
+  "hooks_removed_after_use": true
+}

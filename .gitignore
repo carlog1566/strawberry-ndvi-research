@@ -20,3 +20,8 @@ Research/upstream/
 *.tif
 *.tiff
 *_predictions.csv
+
+# Post-hoc derived attention weights only; raw sample arrays remain excluded.
+.matplotlib/
+Research/analysis_results/**/protected_inputs_before.json
+!Research/analysis_results/five_seed_posthoc_2026-11-19/seed_*/attention/example_*_per_head.npz
